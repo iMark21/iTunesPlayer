@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965709BD7C8F5116C003C037 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8555D544E13834548D3F6A /* libPods.a */; };
 		A1D5043B1C52426C004858E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5043A1C52426C004858E9 /* main.m */; };
 		A1D5043E1C52426C004858E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5043D1C52426C004858E9 /* AppDelegate.m */; };
 		A1D504411C52426C004858E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D504401C52426C004858E9 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00094F2AFB2CE4C5A1B4C54A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6C8555D544E13834548D3F6A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D504361C52426B004858E9 /* BeRepublicMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeRepublicMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D5043A1C52426C004858E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1D5043C1C52426C004858E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		A1D504481C52426C004858E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D5044B1C52426C004858E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1D5044D1C52426C004858E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42DA068266F868299E4EB4F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965709BD7C8F5116C003C037 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36B0A9A11EA1DDCAA50F7CB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A42DA068266F868299E4EB4F /* Pods.debug.xcconfig */,
+				00094F2AFB2CE4C5A1B4C54A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1D5042D1C52426B004858E9 = {
 			isa = PBXGroup;
 			children = (
 				A1D504381C52426B004858E9 /* BeRepublicMusic */,
 				A1D504371C52426B004858E9 /* Products */,
+				36B0A9A11EA1DDCAA50F7CB4 /* Pods */,
+				C2AA43AC72D5C875030632D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +98,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2AA43AC72D5C875030632D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8555D544E13834548D3F6A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D504501C52426C004858E9 /* Build configuration list for PBXNativeTarget "BeRepublicMusic" */;
 			buildPhases = (
+				8831CAC9B97F227B4E935D92 /* Check Pods Manifest.lock */,
 				A1D504321C52426B004858E9 /* Sources */,
 				A1D504331C52426B004858E9 /* Frameworks */,
 				A1D504341C52426B004858E9 /* Resources */,
+				46D324A10A0A443D472C69FD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +172,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D324A10A0A443D472C69FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8831CAC9B97F227B4E935D92 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1D504321C52426B004858E9 /* Sources */ = {
@@ -265,6 +324,7 @@
 		};
 		A1D504511C52426C004858E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42DA068266F868299E4EB4F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeRepublicMusic/Info.plist;
@@ -276,6 +336,7 @@
 		};
 		A1D504521C52426C004858E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00094F2AFB2CE4C5A1B4C54A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeRepublicMusic/Info.plist;
@@ -304,6 +365,7 @@
 				A1D504521C52426C004858E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
