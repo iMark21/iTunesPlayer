@@ -1,18 +1,18 @@
 PODS:
+  - APAvatarImageView (1.1.0)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
   - SVProgressHUD (1.1.3)
-  - SVPullToRefresh (0.4.1)
 
 DEPENDENCIES:
+  - APAvatarImageView
   - SDWebImage (~> 3.7)
   - SVProgressHUD
-  - SVPullToRefresh
 
 SPEC CHECKSUMS:
+  APAvatarImageView: 428dbd0631a150fe876f90bfd7eaa275a19b9209
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
-  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
 
 COCOAPODS: 0.38.2

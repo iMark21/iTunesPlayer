@@ -15,6 +15,10 @@
 		A1D504471C52426C004858E9 /* BeRepublicMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1D504451C52426C004858E9 /* BeRepublicMusic.xcdatamodeld */; };
 		A1D504491C52426C004858E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D504481C52426C004858E9 /* Assets.xcassets */; };
 		A1D5044C1C52426C004858E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D5044A1C52426C004858E9 /* LaunchScreen.storyboard */; };
+		A1D504551C524860004858E9 /* MMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D504541C524860004858E9 /* MMAPI.m */; };
+		A1D504591C524D12004858E9 /* MMQueryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D504581C524D12004858E9 /* MMQueryTableViewCell.m */; };
+		A1D5045C1C525162004858E9 /* MMAlbumObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5045B1C525162004858E9 /* MMAlbumObject.m */; };
+		A1D5045E1C5266BA004858E9 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D5045D1C5266BA004858E9 /* placeholder.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,13 @@
 		A1D504481C52426C004858E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D5044B1C52426C004858E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1D5044D1C52426C004858E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D504531C524860004858E9 /* MMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAPI.h; sourceTree = "<group>"; };
+		A1D504541C524860004858E9 /* MMAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAPI.m; sourceTree = "<group>"; };
+		A1D504571C524D12004858E9 /* MMQueryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMQueryTableViewCell.h; sourceTree = "<group>"; };
+		A1D504581C524D12004858E9 /* MMQueryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMQueryTableViewCell.m; sourceTree = "<group>"; };
+		A1D5045A1C525162004858E9 /* MMAlbumObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAlbumObject.h; sourceTree = "<group>"; };
+		A1D5045B1C525162004858E9 /* MMAlbumObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlbumObject.m; sourceTree = "<group>"; };
+		A1D5045D1C5266BA004858E9 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		A42DA068266F868299E4EB4F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +87,7 @@
 		A1D504381C52426B004858E9 /* BeRepublicMusic */ = {
 			isa = PBXGroup;
 			children = (
+				A1D504561C5249B7004858E9 /* Engine */,
 				A1D5043C1C52426C004858E9 /* AppDelegate.h */,
 				A1D5043D1C52426C004858E9 /* AppDelegate.m */,
 				A1D5043F1C52426C004858E9 /* ViewController.h */,
@@ -86,6 +98,10 @@
 				A1D5044D1C52426C004858E9 /* Info.plist */,
 				A1D504451C52426C004858E9 /* BeRepublicMusic.xcdatamodeld */,
 				A1D504391C52426C004858E9 /* Supporting Files */,
+				A1D504571C524D12004858E9 /* MMQueryTableViewCell.h */,
+				A1D504581C524D12004858E9 /* MMQueryTableViewCell.m */,
+				A1D5045A1C525162004858E9 /* MMAlbumObject.h */,
+				A1D5045B1C525162004858E9 /* MMAlbumObject.m */,
 			);
 			path = BeRepublicMusic;
 			sourceTree = "<group>";
@@ -93,9 +109,19 @@
 		A1D504391C52426C004858E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1D5045D1C5266BA004858E9 /* placeholder.jpg */,
 				A1D5043A1C52426C004858E9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1D504561C5249B7004858E9 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				A1D504531C524860004858E9 /* MMAPI.h */,
+				A1D504541C524860004858E9 /* MMAPI.m */,
+			);
+			name = Engine;
 			sourceTree = "<group>";
 		};
 		C2AA43AC72D5C875030632D8 /* Frameworks */ = {
@@ -166,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D5044C1C52426C004858E9 /* LaunchScreen.storyboard in Resources */,
+				A1D5045E1C5266BA004858E9 /* placeholder.jpg in Resources */,
 				A1D504491C52426C004858E9 /* Assets.xcassets in Resources */,
 				A1D504441C52426C004858E9 /* Main.storyboard in Resources */,
 			);
@@ -211,6 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D504591C524D12004858E9 /* MMQueryTableViewCell.m in Sources */,
+				A1D504551C524860004858E9 /* MMAPI.m in Sources */,
+				A1D5045C1C525162004858E9 /* MMAlbumObject.m in Sources */,
 				A1D504411C52426C004858E9 /* ViewController.m in Sources */,
 				A1D5043E1C52426C004858E9 /* AppDelegate.m in Sources */,
 				A1D504471C52426C004858E9 /* BeRepublicMusic.xcdatamodeld in Sources */,
