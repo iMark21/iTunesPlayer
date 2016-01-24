@@ -27,7 +27,7 @@
     self.title = [dictionary objectForKey:@"trackCensoredName"];
     self.artist = [dictionary objectForKey:@"artistName"];
     self.gender = [dictionary objectForKey:@"primaryGenreName"];
-    self.prize = [dictionary objectForKey:@"trackPrice"];
+    self.prize = [[dictionary objectForKey:@"trackPrice"]floatValue];
     self.imageAlbum = [dictionary objectForKey:@"artworkUrl100"];
     self.songURL = [dictionary objectForKey:@"previewUrl"];
 

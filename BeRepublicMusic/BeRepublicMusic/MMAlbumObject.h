@@ -13,7 +13,7 @@
 @property (nonatomic,strong) NSString *title;
 @property (nonatomic,strong) NSString *artist;
 @property (nonatomic,strong) NSString *gender;
-@property (nonatomic,strong) NSString *prize;
+@property (nonatomic,assign) float prize;
 @property (nonatomic,strong) NSString *imageAlbum;
 @property (nonatomic,strong) NSString *songURL;
 

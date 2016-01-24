@@ -15,6 +15,7 @@
 #import "UIImageView+WebCache.h"
 #import "MMDetailViewController.h"
 #import "BeamMusicPlayerViewController.h"
+#import "LMDropdownView.h"
 
 @interface ViewController ()
 
@@ -26,15 +27,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [self.segmentedControl setSelectedSegmentIndex:UISegmentedControlNoSegment];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (IBAction)searchButtonAction:(id)sender {
     
+    [self.segmentedControl setSelectedSegmentIndex:UISegmentedControlNoSegment];
+    
     if ([self.textField.text length]==0) {
         
         UIAlertController * alert=   [UIAlertController
-                                      alertControllerWithTitle:@"Ooops!"                                                  message:NSLocalizedString(@"You have to enter a place", @"")
+                                      alertControllerWithTitle:@"Ooops!"                                                  message:NSLocalizedString(@"You have to enter some word", @"")
                                       preferredStyle:UIAlertControllerStyleAlert];
         
         UIAlertAction *cancelButton = [UIAlertAction
@@ -56,6 +61,8 @@
     
     
 }
+
+
 
 -(void)loadDataWithString: (NSString*)queryText{
 
@@ -152,7 +159,7 @@
     cell.title.text =  album.title;
     cell.artist.text = album.artist;
     cell.gender.text = album.gender;
-    cell.prize.text = [NSString stringWithFormat:@"%@",album.prize];
+    cell.prize.text = [NSString stringWithFormat:@"%.02f",album.prize];
     
     [cell.imageAlbum sd_setImageWithURL:[NSURL URLWithString:album.imageAlbum] placeholderImage:[UIImage imageNamed:@"placeholder.jpg"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         
@@ -162,7 +169,10 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 
 
@@ -185,6 +195,52 @@
         vc.songsArray = self.parsedItems;
         
     }
+}
+
+-(void)segmentedControlAction:(id)sender{
+    
+
+        
+        switch (self.segmentedControl.selectedSegmentIndex)
+        {
+            case 0:{
+                
+                NSLog(@"First selected");
+                
+                NSSortDescriptor *sortDescriptor;
+                sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"prize"
+                                                             ascending:YES];
+                NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+                
+                NSArray *sortedArray = [self.parsedItems sortedArrayUsingDescriptors:sortDescriptors];
+                
+                self.parsedItems = [NSMutableArray arrayWithArray:sortedArray];
+                
+                [self.tableView reloadData];
+                
+                break;
+            }
+            case 1:{
+                
+                NSLog(@"Second selected");
+                
+                NSSortDescriptor *sortDescriptor;
+                sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"gender"
+                                                             ascending:YES];
+                NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+                
+                NSArray *sortedArray = [self.parsedItems sortedArrayUsingDescriptors:sortDescriptors];
+                
+                self.parsedItems = [NSMutableArray arrayWithArray:sortedArray];
+                
+                [self.tableView reloadData];
+                
+                break;
+ 
+            }
+        }
+    
+    
 }
 
 

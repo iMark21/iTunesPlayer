@@ -122,9 +122,24 @@
                             <constraint firstAttribute="trailing" secondItem="DeA-14-lz5" secondAttribute="trailing" id="xfz-6f-j7D"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="9GA-UV-CNJ"/>
+                    <navigationItem key="navigationItem" id="9GA-UV-CNJ">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="PH8-UC-GRt">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="ag7-H3-wlx">
+                                <rect key="frame" x="20" y="7" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Prize"/>
+                                    <segment title="Gender"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="m15-vi-136"/>
+                                </connections>
+                            </segmentedControl>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="searchButton" destination="e92-3y-fsh" id="d7r-rB-V6w"/>
+                        <outlet property="segmentedControl" destination="ag7-H3-wlx" id="K9B-Rd-3he"/>
                         <outlet property="tableView" destination="DeA-14-lz5" id="Mja-ry-bgR"/>
                         <outlet property="textField" destination="DOH-x3-Tgl" id="QfQ-d5-HwR"/>
                     </connections>
