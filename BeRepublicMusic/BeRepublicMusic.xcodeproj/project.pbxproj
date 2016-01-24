@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		965709BD7C8F5116C003C037 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8555D544E13834548D3F6A /* libPods.a */; };
+		A13A6E531C55226800185D9A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E4F1C55226800185D9A /* pause.png */; };
+		A13A6E541C55226800185D9A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E501C55226800185D9A /* play.png */; };
+		A13A6E551C55226800185D9A /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E511C55226800185D9A /* previous.png */; };
+		A13A6E561C55226800185D9A /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E521C55226800185D9A /* forward.png */; };
+		A17C841F1C53D3520078BD5E /* MMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17C841E1C53D3520078BD5E /* MMDetailViewController.m */; };
+		A17C84231C53DA8B0078BD5E /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = A17C84221C53DA8B0078BD5E /* UIImage+Blur.m */; };
 		A1D5043B1C52426C004858E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5043A1C52426C004858E9 /* main.m */; };
 		A1D5043E1C52426C004858E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5043D1C52426C004858E9 /* AppDelegate.m */; };
 		A1D504411C52426C004858E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D504401C52426C004858E9 /* ViewController.m */; };
@@ -24,6 +30,14 @@
 /* Begin PBXFileReference section */
 		00094F2AFB2CE4C5A1B4C54A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6C8555D544E13834548D3F6A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13A6E4F1C55226800185D9A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		A13A6E501C55226800185D9A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		A13A6E511C55226800185D9A /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		A13A6E521C55226800185D9A /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		A17C841D1C53D3520078BD5E /* MMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDetailViewController.h; sourceTree = "<group>"; };
+		A17C841E1C53D3520078BD5E /* MMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDetailViewController.m; sourceTree = "<group>"; };
+		A17C84211C53DA8B0078BD5E /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		A17C84221C53DA8B0078BD5E /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 		A1D504361C52426B004858E9 /* BeRepublicMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeRepublicMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D5043A1C52426C004858E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1D5043C1C52426C004858E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +80,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A17C84201C53DA5C0078BD5E /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				A17C84211C53DA8B0078BD5E /* UIImage+Blur.h */,
+				A17C84221C53DA8B0078BD5E /* UIImage+Blur.m */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
 		A1D5042D1C52426B004858E9 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +110,7 @@
 		A1D504381C52426B004858E9 /* BeRepublicMusic */ = {
 			isa = PBXGroup;
 			children = (
+				A17C84201C53DA5C0078BD5E /* 3rd Party */,
 				A1D504561C5249B7004858E9 /* Engine */,
 				A1D5043C1C52426C004858E9 /* AppDelegate.h */,
 				A1D5043D1C52426C004858E9 /* AppDelegate.m */,
@@ -102,6 +126,8 @@
 				A1D504581C524D12004858E9 /* MMQueryTableViewCell.m */,
 				A1D5045A1C525162004858E9 /* MMAlbumObject.h */,
 				A1D5045B1C525162004858E9 /* MMAlbumObject.m */,
+				A17C841D1C53D3520078BD5E /* MMDetailViewController.h */,
+				A17C841E1C53D3520078BD5E /* MMDetailViewController.m */,
 			);
 			path = BeRepublicMusic;
 			sourceTree = "<group>";
@@ -109,6 +135,10 @@
 		A1D504391C52426C004858E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A13A6E4F1C55226800185D9A /* pause.png */,
+				A13A6E501C55226800185D9A /* play.png */,
+				A13A6E511C55226800185D9A /* previous.png */,
+				A13A6E521C55226800185D9A /* forward.png */,
 				A1D5045D1C5266BA004858E9 /* placeholder.jpg */,
 				A1D5043A1C52426C004858E9 /* main.m */,
 			);
@@ -165,6 +195,7 @@
 				TargetAttributes = {
 					A1D504351C52426B004858E9 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = J98FW8N44Z;
 					};
 				};
 			};
@@ -193,8 +224,12 @@
 			files = (
 				A1D5044C1C52426C004858E9 /* LaunchScreen.storyboard in Resources */,
 				A1D5045E1C5266BA004858E9 /* placeholder.jpg in Resources */,
+				A13A6E531C55226800185D9A /* pause.png in Resources */,
+				A13A6E561C55226800185D9A /* forward.png in Resources */,
+				A13A6E551C55226800185D9A /* previous.png in Resources */,
 				A1D504491C52426C004858E9 /* Assets.xcassets in Resources */,
 				A1D504441C52426C004858E9 /* Main.storyboard in Resources */,
+				A13A6E541C55226800185D9A /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17C84231C53DA8B0078BD5E /* UIImage+Blur.m in Sources */,
 				A1D504591C524D12004858E9 /* MMQueryTableViewCell.m in Sources */,
 				A1D504551C524860004858E9 /* MMAPI.m in Sources */,
 				A1D5045C1C525162004858E9 /* MMAlbumObject.m in Sources */,
@@ -245,6 +281,7 @@
 				A1D5043E1C52426C004858E9 /* AppDelegate.m in Sources */,
 				A1D504471C52426C004858E9 /* BeRepublicMusic.xcdatamodeld in Sources */,
 				A1D5043B1C52426C004858E9 /* main.m in Sources */,
+				A17C841F1C53D3520078BD5E /* MMDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,10 +394,13 @@
 			baseConfigurationReference = A42DA068266F868299E4EB4F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BeRepublicMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iMark.BeRepublicMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -369,10 +409,13 @@
 			baseConfigurationReference = 00094F2AFB2CE4C5A1B4C54A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BeRepublicMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iMark.BeRepublicMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

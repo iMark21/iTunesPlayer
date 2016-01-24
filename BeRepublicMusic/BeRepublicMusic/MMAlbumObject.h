@@ -15,6 +15,7 @@
 @property (nonatomic,strong) NSString *gender;
 @property (nonatomic,strong) NSString *prize;
 @property (nonatomic,strong) NSString *imageAlbum;
+@property (nonatomic,strong) NSString *songURL;
 
 -(instancetype)initWithDictionary:(NSDictionary*)dictionary;
 

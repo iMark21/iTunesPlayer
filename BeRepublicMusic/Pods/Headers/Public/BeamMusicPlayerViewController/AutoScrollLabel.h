@@ -1,0 +1,1 @@
+../../../BeamMusicPlayerViewController/Source/AutoScrollLabel.h

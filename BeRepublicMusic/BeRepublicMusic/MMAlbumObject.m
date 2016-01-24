@@ -29,15 +29,8 @@
     self.gender = [dictionary objectForKey:@"primaryGenreName"];
     self.prize = [dictionary objectForKey:@"trackPrice"];
     self.imageAlbum = [dictionary objectForKey:@"artworkUrl100"];
-    
-    
-//    self.south = [dictionary valueForKeyPath:@"bbox.south"];
-//    self.north = [dictionary valueForKeyPath:@"bbox.north"];
-//    self.east = [dictionary valueForKeyPath:@"bbox.east"];
-//    self.west = [dictionary valueForKeyPath:@"bbox.west"];
-//    self.name = [dictionary valueForKey:@"name"];
-//    self.lat = [dictionary valueForKey:@"lat"];
-//    self.lng = [dictionary valueForKey:@"lng"];
+    self.songURL = [dictionary objectForKey:@"previewUrl"];
+
     
 }
 

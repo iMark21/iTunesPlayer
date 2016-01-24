@@ -58,9 +58,15 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "BeamMusicPlayerViewController/Source/BeamMusicPlayerViewController.xib"
+  install_resource "BeamMusicPlayerViewController/Source/BeamMusicPlayerViewController~ipad.xib"
+  install_resource "BeamMusicPlayerViewController/Source/BeamMusicPlayerController.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "BeamMusicPlayerViewController/Source/BeamMusicPlayerViewController.xib"
+  install_resource "BeamMusicPlayerViewController/Source/BeamMusicPlayerViewController~ipad.xib"
+  install_resource "BeamMusicPlayerViewController/Source/BeamMusicPlayerController.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 

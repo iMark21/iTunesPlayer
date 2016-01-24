@@ -13,6 +13,8 @@
 #import "MMQueryTableViewCell.h"
 #import <SDWebImage/SDImageCache.h>
 #import "UIImageView+WebCache.h"
+#import "MMDetailViewController.h"
+#import "BeamMusicPlayerViewController.h"
 
 @interface ViewController ()
 
@@ -25,11 +27,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)searchButtonAction:(id)sender {
@@ -133,17 +130,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
-    
-//    if (self.parsedItems.count == 0 || self.parsedItems == nil) {
-//        
-//        self.parsedItems = [NSMutableArray array];
-//        
-//        self.parsedItems = [[[MMAPI sharedInstance]restoreCacheInformation]mutableCopy];
-//        
-//        
-//    }
-    
+      
     
     return [self.parsedItems count];
 }
@@ -182,26 +169,22 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-//    // Make sure your segue name in storyboard is the same as this line
-//    if ([[segue identifier] isEqualToString:@"detail"])
-//    {
-//        
-//        
-//        // Get reference to the destination view controller
-//        MMDetailViewController *vc = [segue destinationViewController];
-//        
-//        
-//        NSIndexPath *path = [self.tableViewLocations indexPathForSelectedRow];
-//        
-//        
-//        MMGeographicPlace *place = [self.parsedItems objectAtIndex:path.row];
-//        
-//        vc.place = place;
-//        
-//        [[MMAPI sharedInstance]saveCacheInformationWithString:place];
-//        
-//        
-//    }
+
+    if ([[segue identifier] isEqualToString:@"detail"])
+    {
+
+        MMDetailViewController *vc = [segue destinationViewController];
+        
+        
+        NSIndexPath *path = [self.tableView indexPathForSelectedRow];
+        
+        NSNumber *selSong = [[NSNumber alloc] initWithInteger:path.row];
+
+        vc.songNumber = selSong;
+        
+        vc.songsArray = self.parsedItems;
+        
+    }
 }
 
 
