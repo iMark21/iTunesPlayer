@@ -187,13 +187,26 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSc-50-pvp">
+                                                        <rect key="frame" x="565" y="75" width="25" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="25" id="3Fu-a0-p5w"/>
+                                                            <constraint firstAttribute="width" constant="25" id="Jce-92-sJS"/>
+                                                        </constraints>
+                                                        <state key="normal" image="social24.png"/>
+                                                        <connections>
+                                                            <action selector="shareAction:" destination="o81-Lf-iMj" eventType="touchUpInside" id="zH0-tm-HFK"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="Tqj-t8-Hgw" secondAttribute="trailing" id="9tJ-Qy-l4X"/>
                                                     <constraint firstAttribute="height" constant="110" id="Bec-F2-ZvI"/>
                                                     <constraint firstAttribute="bottom" secondItem="Tqj-t8-Hgw" secondAttribute="bottom" id="G3b-Uu-FTZ"/>
                                                     <constraint firstItem="gaY-zt-BQ2" firstAttribute="leading" secondItem="MOz-sw-agO" secondAttribute="leading" constant="10" id="HAh-7W-TFy"/>
+                                                    <constraint firstAttribute="bottom" secondItem="rSc-50-pvp" secondAttribute="bottom" constant="10" id="IF3-nI-bO6"/>
                                                     <constraint firstItem="2Js-SW-YjA" firstAttribute="leading" secondItem="MOz-sw-agO" secondAttribute="leading" constant="10" id="JXO-8x-L5Y"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rSc-50-pvp" secondAttribute="trailing" constant="10" id="K8X-Im-E0O"/>
                                                     <constraint firstItem="Tqj-t8-Hgw" firstAttribute="top" secondItem="MOz-sw-agO" secondAttribute="top" id="bUZ-Jw-cjR"/>
                                                     <constraint firstItem="gaY-zt-BQ2" firstAttribute="top" secondItem="2Js-SW-YjA" secondAttribute="bottom" id="dtG-KL-Rb8"/>
                                                     <constraint firstAttribute="trailing" secondItem="gaY-zt-BQ2" secondAttribute="trailing" constant="10" id="ev6-mi-hx0"/>
@@ -314,5 +327,6 @@
         <image name="placeholder.jpg" width="1280" height="800"/>
         <image name="play.png" width="64" height="64"/>
         <image name="previous.png" width="64" height="64"/>
+        <image name="social24.png" width="128" height="128"/>
     </resources>
 </document>

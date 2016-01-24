@@ -12,6 +12,7 @@
 		A13A6E541C55226800185D9A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E501C55226800185D9A /* play.png */; };
 		A13A6E551C55226800185D9A /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E511C55226800185D9A /* previous.png */; };
 		A13A6E561C55226800185D9A /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E521C55226800185D9A /* forward.png */; };
+		A13A6E591C554F7700185D9A /* social24.png in Resources */ = {isa = PBXBuildFile; fileRef = A13A6E581C554F7700185D9A /* social24.png */; };
 		A17C841F1C53D3520078BD5E /* MMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17C841E1C53D3520078BD5E /* MMDetailViewController.m */; };
 		A17C84231C53DA8B0078BD5E /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = A17C84221C53DA8B0078BD5E /* UIImage+Blur.m */; };
 		A1D5043B1C52426C004858E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5043A1C52426C004858E9 /* main.m */; };
@@ -34,6 +35,7 @@
 		A13A6E501C55226800185D9A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		A13A6E511C55226800185D9A /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
 		A13A6E521C55226800185D9A /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		A13A6E581C554F7700185D9A /* social24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = social24.png; sourceTree = "<group>"; };
 		A17C841D1C53D3520078BD5E /* MMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDetailViewController.h; sourceTree = "<group>"; };
 		A17C841E1C53D3520078BD5E /* MMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDetailViewController.m; sourceTree = "<group>"; };
 		A17C84211C53DA8B0078BD5E /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		A1D504391C52426C004858E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A13A6E581C554F7700185D9A /* social24.png */,
 				A13A6E4F1C55226800185D9A /* pause.png */,
 				A13A6E501C55226800185D9A /* play.png */,
 				A13A6E511C55226800185D9A /* previous.png */,
@@ -227,6 +230,7 @@
 				A1D5045E1C5266BA004858E9 /* placeholder.jpg in Resources */,
 				A13A6E531C55226800185D9A /* pause.png in Resources */,
 				A13A6E561C55226800185D9A /* forward.png in Resources */,
+				A13A6E591C554F7700185D9A /* social24.png in Resources */,
 				A13A6E551C55226800185D9A /* previous.png in Resources */,
 				A1D504491C52426C004858E9 /* Assets.xcassets in Resources */,
 				A1D504441C52426C004858E9 /* Main.storyboard in Resources */,

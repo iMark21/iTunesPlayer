@@ -10,6 +10,7 @@
 #import <SDWebImage/SDImageCache.h>
 #import "UIImageView+WebCache.h"
 #import "UIImage+Blur.h"
+#import "SVProgressHUD.h"
 
 
 @interface MMDetailViewController ()
@@ -103,6 +104,33 @@
         [self.audioPlayer play];
         
     }
+}
+
+- (IBAction)shareAction:(id)sender {
+    
+    [SVProgressHUD show];
+    
+    MMAlbumObject *selectedObject = [self.songsArray objectAtIndex:self.newPositionSong];
+    
+    NSString *cellText = selectedObject.title;
+    
+    NSArray* dataToShare = @[cellText];
+    
+    UIActivityViewController* activityViewController =
+    [[UIActivityViewController alloc] initWithActivityItems:dataToShare
+                                      applicationActivities:nil];
+    
+    if ( [activityViewController respondsToSelector:@selector(popoverPresentationController)] ) {
+        // iOS8
+        activityViewController.popoverPresentationController.sourceView =
+        self.view;
+    }
+    
+    [self presentViewController:activityViewController animated:YES completion:^{
+        
+        [SVProgressHUD dismiss];
+        
+    }];
 }
 
 -(void)viewWillDisappear:(BOOL)animated{

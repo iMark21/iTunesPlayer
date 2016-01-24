@@ -32,5 +32,6 @@
 - (IBAction)actionPlay:(id)sender;
 - (IBAction)actionNext:(id)sender;
 - (IBAction)actionPrevious:(id)sender;
+- (IBAction)shareAction:(id)sender;
 
 @end
