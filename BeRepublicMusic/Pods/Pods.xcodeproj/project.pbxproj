@@ -7,213 +7,215 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013B0C48D8A56D765FAFDEB38C2BFFBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
+		012192DEE06E031E9708B1884C699830 /* BeamMusicPlayerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B946C7396D485186373FB974317AF5F /* BeamMusicPlayerViewController-dummy.m */; };
+		05236E7F1A5AEC6AE2E7B55911173E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 		0943A4196177D34CF59C88E4AA77B576 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6810D818545BACFD21ACAB72D23DC72 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0CBFA0FDE2C98DEB97B2B0DC291F6F3F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EFD1D330A4BC70F1C4C2ED395E2258 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		18894FC9A166263E6CB1FC6EE6AD8EFF /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F8CEA8D6C3D34590016ED7FF78B90C /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1B1601CD290BDD30F91A5FC57F7B99DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1805FDAEA66420C06525B49EB9993E13 /* CoreGraphics.framework */; };
 		1CF8CC4C0779A54402C6EAD0D33E8C20 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80965F2736166536C733155A5ADC0A48 /* Pods-dummy.m */; };
 		2358EE556EF067512DADC50B59A15D25 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C8A6792D4A925F9D3ABA38CB9537E /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		26B21B244340BA5A2F45F3B43F1D4926 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5099BC8D81DEDA973F9FF97BE55354BB /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		27AEEA215EF4BB7C99482D92A0ED6EA5 /* APAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08376D184E6307E6276A024C7594A648 /* APAvatarImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		27C613CD8F0D5500013A024E4636F20C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */; };
 		2C6AEC70A3E09CC7BD16C30B5B941981 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECFB2161C220584CD4F649E8EAE3896 /* SDWebImageManager.h */; };
-		2EC30C582CFB2F0D35B70C8EE610B163 /* BeamMusicPlayerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 039CFEDE644327BA0718B222B6D239AA /* BeamMusicPlayerDataSource.h */; };
-		2F32384B0EA3A9BA755C3931EBE959A5 /* BeamMPMusicPlayerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 52216F7C165729B0AB0AB13A8C38F7AB /* BeamMPMusicPlayerProvider.h */; };
 		2F8C6CAAE593D8F555D0D54C536E3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		30518648CA2E4B70B18A2C6826C8735F /* BeamAVMusicPlayerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 610B09887C67EFD20AC0BC52233757E9 /* BeamAVMusicPlayerProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		317602D7E2B9A957806A009744DBB727 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */; };
-		36A6C7C86B7F6581FADCBECFA77C364C /* BeamMusicPlayerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731973A9BAB532E33443424A65A992C /* BeamMusicPlayerViewController-dummy.m */; };
-		37917632D039AB6873A78A17CC586B84 /* NSDateFormatter+Duration.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A45D7931B0A949EF877BCE19434F6B /* NSDateFormatter+Duration.h */; };
+		323BC75C748EEC77ED05418A7582409A /* NSDateFormatter+Duration.m in Sources */ = {isa = PBXBuildFile; fileRef = C22DCED4ED5948575F5DAFBBBE61A28A /* NSDateFormatter+Duration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		37A315C532DA1A156F9676951702EFB9 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 565D0DE3F083F3D803EE8CA97CDAECC5 /* SDWebImageDownloader.h */; };
+		433CA2181681EF609B8B7A023E9E83FD /* BeamMusicPlayerTransparentToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = DC93F6EBB34E0FB7FA5527955E4F88C6 /* BeamMusicPlayerTransparentToolbar.h */; };
 		46C6D0143AB94CDD866FB320B9DB3C14 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C518201A486FCF7036C9F9DDBD593D /* NSData+ImageContentType.h */; };
-		4D7E0DFD884D68BB9FA046DC6DCE3F16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9952CA1C166B94BFFBAF42E03D201011 /* CoreGraphics.framework */; };
+		47E6CAFEC64AAD5CA04E986061079597 /* OBSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D954883C5C2BE69AEAD88D3D170C01E /* OBSlider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4B0AD80C52F534C68D0F06689F77D14D /* NSDateFormatter+Duration.h in Headers */ = {isa = PBXBuildFile; fileRef = F785EDAB2C394338D4887DDBF3F31F9C /* NSDateFormatter+Duration.h */; };
 		50151E9ABC4AC6EFCD9764698E392A3D /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B5566E66AC64253CA228C460AE2931 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		504BE9861A35DFC1043C9CE76A797EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 		505651BE6DF50CBA5C6BE87452D20BCF /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DD99E890B5B9C7A22168DCDFF7F2F2 /* UIImageView+HighlightedWebCache.h */; };
 		57FDB0D84B88BA790448FB0099B256FB /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6437C050025F1A8C69647B6744A18170 /* UIImage+MultiFormat.h */; };
-		5E2415F86EFD13809700D5AFEEFEC262 /* BeamMPMusicPlayerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC66605451F38C2777402525528C35 /* BeamMPMusicPlayerProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5EE6064B30572D8399594D9A1730EF93 /* BeamMusicPlayerTransparentToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F89D2E43347B82E985800B8B2D8999 /* BeamMusicPlayerTransparentToolbar.h */; };
+		619E1725C0885AE12ABCEE926504264F /* BeamMPMusicPlayerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F832553D1D785BC6500D14449F7DCA1B /* BeamMPMusicPlayerProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		646A6FC808A0B280B80AD4949D8357F8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E19C4AEA9338236A9FD2DDA753E214 /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		683D4409569BB94EA3E3CA4B20630763 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD298F4EF2F68C4B172982286D20D49 /* ImageIO.framework */; };
-		6BDEFE9E2BC1221FC2B63975F1D69D28 /* BeamMusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D693DC09F85E1630BFE2AEA70B037CF /* BeamMusicPlayerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		751C7CA61D9FD97DF80431FC9050736F /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 442BD5A86D7383D426EA6C87AB86FA93 /* UIButton+WebCache.h */; };
 		75D7CEA58A5F72C5F13499A11A573EEA /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36868875BC2FD7CD9ACA53E772A68147 /* SDWebImage-dummy.m */; };
-		7AE1A5E1A629D377AF3C3710367B7726 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF85B756E24D4B1CCFBD9F4B98C1802E /* MediaPlayer.framework */; };
+		776C75A53BCD36E6971BE5BE26F06419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
+		78410055AFB652277D64C1C159B1500E /* BeamMusicPlayerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F02311D8196DBA763057DD993760C3CA /* BeamMusicPlayerDataSource.h */; };
 		7BE7688304D568BF106470980EB865C7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */; };
 		7F47EBDA28826BDBD28A502091E9D9FD /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D283561CA0E408531C1CA0651571381 /* SDWebImagePrefetcher.h */; };
-		85C1FB79B43D15FF57F6CB2E52AE2369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 		88E73B996D8355E9622B66AD1BCCB168 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 085ECBDDE362422A1BFD1DBE30FDB4F4 /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		898D8603930620AE3DE89A892967A505 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 663FC8B8350D10A667A2FAF5EF29708C /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		89F05D147E1D3780837633BB16691C53 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */; };
-		8B88EC63A43B378C3F6B1702058AFAF4 /* APAvatarImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DF3F5BAB8A93E6FC93528527DED9A1 /* APAvatarImageView.h */; };
-		8F01D4CBC6E9AE66E361280E94183AEA /* BeamAVMusicPlayerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 59049FCBCCE1A74C49B9C5E347FA781F /* BeamAVMusicPlayerProvider.h */; };
-		8F26BB5DA291B3282B6C05634C4282EC /* BeamMusicPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B9E6E784545DD5ED6256412CBA6617 /* BeamMusicPlayerViewController.h */; };
+		8C411666A1C026FA80728881B35CA07E /* BeamAVMusicPlayerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CF676626F9DB5795158085453512 /* BeamAVMusicPlayerProvider.h */; };
 		90144EA34E633F7A8746D9C8BF0FF942 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D66C1B89B8779333C904B6E1F0FE50 /* SDWebImageDownloaderOperation.h */; };
-		9BA2C9FD573A8855EAFD73EE4CFE3958 /* APAvatarImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CCF2E7F3E7B66B05693F8369DF55C /* APAvatarImageView-dummy.m */; };
-		9C5BAFDFF543ED9F56126092015F868B /* BeamMusicPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EF21C05F6022C159A48D277047EE60 /* BeamMusicPlayerDelegate.h */; };
+		93EA79591BB5BAD1F7C0CE16078255B6 /* APAvatarImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62599E5865A7753FF3C63FECBCD1383F /* APAvatarImageView-dummy.m */; };
+		9564D3C1760E5430ED150B9043450A3E /* BeamMPMusicPlayerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C86548DDC606B4CC885A9E0A99B063 /* BeamMPMusicPlayerProvider.h */; };
+		9C13EF8DF855150AC9682CD9E2DAE167 /* APAvatarImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F8D39A8BF02719583F4EA63AD99058 /* APAvatarImageView.h */; };
+		9FFC11A4A954342B6FE90858E78E56F0 /* OBSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368E06FBEACA70A47D6CD6AC426B523 /* OBSlider-dummy.m */; };
+		A012D0C95DBF2342D05AE6FC07A788B2 /* BeamMusicPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CBAAF1C476D7856EF3C0FCCCB9524D /* BeamMusicPlayerViewController.h */; };
 		A130C84AFE78214CA1EFA8BE825406A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 		A2222CEDD905A2D387F4A9C3895A093B /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BE0864137B3554F8C368D6F6EA646 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A454F40CDB43579C399F1A2B9F737466 /* APAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6193F295A84BDAFD2A450DFA938CEFF /* APAvatarImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A6EC3E1CCB6DC24720F3D5902677421E /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC3A4489FFEE078645C51D22848F697 /* SDWebImageCompat.h */; };
 		A773D58B6468B559F2DAB70F8C57F985 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 21426DB0E26F4458B2B8E531ED929344 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AD22FBED3B2F3B5E300F4631FF325B0D /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C7708C9D92468D5D2DD3A56794B5F4 /* SDImageCache.h */; };
 		B0D42E3798828F3B0DFEAE2E8C0A9D5F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */; };
 		B108EF8640D45C3EC1F32CD7AC6DE75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
-		B139CD989CFF393FD6547BB642EF31BD /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD7BFBF909BD773A17BE957CDC3ABC2 /* AutoScrollLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1A9654713041D9921C2689944093912 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A05B5B3AC25284CE6987332775847B /* MediaPlayer.framework */; };
+		B7101FA3A8C513C6BA99753383F01C77 /* BeamAVMusicPlayerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C572779D77C7405CF7D34B42BBA39F /* BeamAVMusicPlayerProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B8337A22024106F5596CAF1873F03C52 /* OBSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBBF9088323B0F5BC075F550470B3B1 /* OBSlider.h */; };
 		B9B24F1882156B9384823BC873391481 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 605FCA5E9AB5C444FED020AAB684D140 /* UIView+WebCacheOperation.h */; };
+		BEA9C73F280A2E55688D03BB19475E44 /* BeamMusicPlayerTransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B3CFF24CFD0E0595A0749F2E720EE /* BeamMusicPlayerTransparentToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C1185E296305793C5FC452BA59752A99 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5ADC47369DCB41D20305EB6B00EFA /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1AE7ADBA7C044C8CBBFF4960CCA1363 /* AutoScrollLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FFAD5B1E8B9CD289E1FB3BDC08224D /* AutoScrollLabel.h */; };
 		C32516863188EAD0CB8D27A796372599 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1763D689FFF87A52680D3FDBBCCA2F /* UIImage+GIF.h */; };
+		C5F8A493047EEAAA37B61E79C09D637A /* BeamMusicPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 733EFCEE870C443EA0EF160B742BAD74 /* BeamMusicPlayerDelegate.h */; };
+		C8F9D2A6DE3A98542C735769944C0737 /* AutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DD36152D5F0FCBD2E7EF9017102A22 /* AutoScrollLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC01FAB522A0FEFB050E183F0D6A9AAD /* BeamMusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169C2AF313BDF0119EC75A82C8FB8F44 /* BeamMusicPlayerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CF8333B5FEC0C76FD7155FE88D951248 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3208FF08E5445EB9E5049F4C5D94F3 /* SDWebImageDecoder.h */; };
-		DBAE5BA20B28EA955023CA213D2E1629 /* OBSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D32BB41CD5DE792F0FBCF2A96B4633B /* OBSlider.h */; };
-		DEE6C8FBA93876A87123ED4D6A519402 /* OBSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5FB73488FFDC39FFD6BD9F983B16DA /* OBSlider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E042F3EE15E5D06B958372257805F086 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1693790C9228360FA63950C2D796CFA5 /* SDWebImageOperation.h */; };
-		E2F89BE5AC44D4A9FC62644D6410FF13 /* OBSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3936DE639518CAD2F4BE45B4D10717FB /* OBSlider-dummy.m */; };
-		E9598A5777054DD364B020402F027718 /* AutoScrollLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7B40F1DD3D4BD6FEFC1EF8B8A4A861 /* AutoScrollLabel.h */; };
-		E997709A153529095FF16F17E517D9DF /* NSDateFormatter+Duration.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E8C82819855B87DC161825E8379D2A /* NSDateFormatter+Duration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EA8094433D6D39119B281846A6516A99 /* BeamMusicPlayerTransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C0F4EAABC13F8E99DB6E42324180 /* BeamMusicPlayerTransparentToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EEC70F07E66D6E0AB32E3E8337165EFD /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFEE3E0C36A901C0D63CDBB8F8D490A /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EF2E5E9490743E84AEAD0DDCD300CF54 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 572E9757319756864DBF2880DCA92575 /* UIImageView+WebCache.h */; };
 		F4FDFA5A83BE4F0B473F228F6AC2C726 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = FE98519651ECB3ECA5C602AD82864FE1 /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F5ABA31CD2179D1EE0FC3F7183438E56 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */; };
-		F76C0A746EAD52E13FB132CA975FD704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F8A40F9BC4AE9D204F4E7A4BA62965D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5352D432641F0656C90741034E32F31E;
-			remoteInfo = SDWebImage;
-		};
-		212C209770843CDE9023023A02B6346D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56263C761FA7C9F96E9CEB7ADFE8AD78;
-			remoteInfo = OBSlider;
-		};
-		664228413F75527C5ED9BFAF0ED47212 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56263C761FA7C9F96E9CEB7ADFE8AD78;
-			remoteInfo = OBSlider;
-		};
-		8C44280A897A6E929AD8A6C38DB24EFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83242CF23C5A19CCDBCB98134817539C;
-			remoteInfo = BeamMusicPlayerViewController;
-		};
-		9FA5144FEA340A941978343730438E87 /* PBXContainerItemProxy */ = {
+		11016E1D96A9D5A89E4412AC47702031 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B281DA29A9C3EDFB45BA53651F6BA611;
 			remoteInfo = SVProgressHUD;
 		};
-		D9C20979BF0501B5EAF20C6F1C29E21A /* PBXContainerItemProxy */ = {
+		4D91AB70F979BD40DEEA2296FAD6D288 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4A6579DE6E078B00B9B7782DFECFDB3;
+			remoteGlobalIDString = D726DC21A560145FCF3B3B0A98D48844;
 			remoteInfo = APAvatarImageView;
+		};
+		51EDF69EF3C9198A7F16ECB914AFBB9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A39D1206B19B929778AA0B850E324C4;
+			remoteInfo = BeamMusicPlayerViewController;
+		};
+		BD46A48BC59BD8BD7E051F2D09F7DBF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B2CE3A94C3CF75769305A9BDB004DC;
+			remoteInfo = OBSlider;
+		};
+		C7F56294A88923A182C85AE8D73A75F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B2CE3A94C3CF75769305A9BDB004DC;
+			remoteInfo = OBSlider;
+		};
+		F5DBBDC135A0B3923A1686513E99F521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352D432641F0656C90741034E32F31E;
+			remoteInfo = SDWebImage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		039CFEDE644327BA0718B222B6D239AA /* BeamMusicPlayerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerDataSource.h; path = Source/BeamMusicPlayerDataSource.h; sourceTree = "<group>"; };
+		05380A6CA34F64FC6AD017BE8092D28B /* libBeamMusicPlayerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeamMusicPlayerViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		079F951FC9C3629C927E280CAAC1326F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		08376D184E6307E6276A024C7594A648 /* APAvatarImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAvatarImageView.m; path = Classes/APAvatarImageView.m; sourceTree = "<group>"; };
 		085ECBDDE362422A1BFD1DBE30FDB4F4 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
-		08B9E6E784545DD5ED6256412CBA6617 /* BeamMusicPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerViewController.h; path = Source/BeamMusicPlayerViewController.h; sourceTree = "<group>"; };
-		09F89D2E43347B82E985800B8B2D8999 /* BeamMusicPlayerTransparentToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerTransparentToolbar.h; path = Source/BeamMusicPlayerTransparentToolbar.h; sourceTree = "<group>"; };
+		08A05B5B3AC25284CE6987332775847B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		0C8BE0864137B3554F8C368D6F6EA646 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
-		0D693DC09F85E1630BFE2AEA70B037CF /* BeamMusicPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamMusicPlayerViewController.m; path = Source/BeamMusicPlayerViewController.m; sourceTree = "<group>"; };
+		137E94E4315E49A6377AFA9CCF6781D8 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1528403F0BB004C199F581EECD47AA01 /* OBSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OBSlider.xcconfig; sourceTree = "<group>"; };
 		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		15D66C1B89B8779333C904B6E1F0FE50 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		1693790C9228360FA63950C2D796CFA5 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
-		1D32BB41CD5DE792F0FBCF2A96B4633B /* OBSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OBSlider.h; path = OBSlider/OBSlider.h; sourceTree = "<group>"; };
+		169C2AF313BDF0119EC75A82C8FB8F44 /* BeamMusicPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamMusicPlayerViewController.m; path = Source/BeamMusicPlayerViewController.m; sourceTree = "<group>"; };
+		1805FDAEA66420C06525B49EB9993E13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		193EB439D8EE3B995673F3528B2B4D18 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 		20C7708C9D92468D5D2DD3A56794B5F4 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
 		21426DB0E26F4458B2B8E531ED929344 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		2675B7D01740EF6F100EA896A1A66E05 /* libAPAvatarImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPAvatarImageView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C572779D77C7405CF7D34B42BBA39F /* BeamAVMusicPlayerProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamAVMusicPlayerProvider.m; path = Source/BeamAVMusicPlayerProvider.m; sourceTree = "<group>"; };
+		25F8D39A8BF02719583F4EA63AD99058 /* APAvatarImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAvatarImageView.h; path = Classes/APAvatarImageView.h; sourceTree = "<group>"; };
+		27C86548DDC606B4CC885A9E0A99B063 /* BeamMPMusicPlayerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMPMusicPlayerProvider.h; path = Source/BeamMPMusicPlayerProvider.h; sourceTree = "<group>"; };
+		2B946C7396D485186373FB974317AF5F /* BeamMusicPlayerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeamMusicPlayerViewController-dummy.m"; sourceTree = "<group>"; };
 		2D283561CA0E408531C1CA0651571381 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		2EB632ED0D37232E6F59DF372C18F21F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		2F7198140DEEB2467B2B7E665D7FCAA7 /* OBSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OBSlider-prefix.pch"; sourceTree = "<group>"; };
+		3503A74EAD40E28BB6CD46D158F9048D /* APAvatarImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAvatarImageView-prefix.pch"; sourceTree = "<group>"; };
 		36868875BC2FD7CD9ACA53E772A68147 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
-		3936DE639518CAD2F4BE45B4D10717FB /* OBSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OBSlider-dummy.m"; sourceTree = "<group>"; };
+		39728CA452D207F96DA1BC07CD7FBC68 /* OBSlider-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OBSlider-Private.xcconfig"; sourceTree = "<group>"; };
 		3C44A9314BC28FD51843EF98EC017629 /* SDWebImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SDWebImage-Private.xcconfig"; sourceTree = "<group>"; };
 		3CC3A4489FFEE078645C51D22848F697 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
 		41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
 		421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42B68C33A104B941B1564CD7C720F9A7 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		435D8F18354D5051F10E595756D25F21 /* BeamMusicPlayerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BeamMusicPlayerViewController.xib; path = Source/BeamMusicPlayerViewController.xib; sourceTree = "<group>"; };
 		442BD5A86D7383D426EA6C87AB86FA93 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		44E19C4AEA9338236A9FD2DDA753E214 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		464004837BDFA35197657175EB1FF593 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
-		4845969E4591BC0BBF447E3379039176 /* libOBSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOBSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		49EC1597345A4EAF252DA61BD191CB1F /* libBeamMusicPlayerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeamMusicPlayerViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A10F65AC19296EF35BA6F941E67D053 /* BeamMusicPlayerViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BeamMusicPlayerViewController-Private.xcconfig"; sourceTree = "<group>"; };
 		4C4C8A6792D4A925F9D3ABA38CB9537E /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
-		504C10BF8A498CDE50C7DB5CC6928E07 /* APAvatarImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAvatarImageView-prefix.pch"; sourceTree = "<group>"; };
+		4C70DC22BA4D43358B3787A0D4DB1F9B /* APAvatarImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APAvatarImageView.xcconfig; sourceTree = "<group>"; };
+		4EDAD917B6FAA9AF9BD19FBB2A7AAF36 /* BeamMusicPlayerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeamMusicPlayerController.bundle; path = Source/BeamMusicPlayerController.bundle; sourceTree = "<group>"; };
 		5099BC8D81DEDA973F9FF97BE55354BB /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
-		52216F7C165729B0AB0AB13A8C38F7AB /* BeamMPMusicPlayerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMPMusicPlayerProvider.h; path = Source/BeamMPMusicPlayerProvider.h; sourceTree = "<group>"; };
 		565D0DE3F083F3D803EE8CA97CDAECC5 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		572E9757319756864DBF2880DCA92575 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		59049FCBCCE1A74C49B9C5E347FA781F /* BeamAVMusicPlayerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamAVMusicPlayerProvider.h; path = Source/BeamAVMusicPlayerProvider.h; sourceTree = "<group>"; };
-		5C5662F78493E515D38BCB0408ECB8E8 /* BeamMusicPlayerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeamMusicPlayerController.bundle; path = Source/BeamMusicPlayerController.bundle; sourceTree = "<group>"; };
+		5C7DA9E2B0C72826A5016589DB777AD2 /* BeamMusicPlayerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeamMusicPlayerViewController.xcconfig; sourceTree = "<group>"; };
 		5ECFB2161C220584CD4F649E8EAE3896 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
-		5F7437A6B40B073730422AC713E7E4C8 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5FA977A92EA8F65068FFE8D118459900 /* libOBSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOBSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		605FCA5E9AB5C444FED020AAB684D140 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		610B09887C67EFD20AC0BC52233757E9 /* BeamAVMusicPlayerProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamAVMusicPlayerProvider.m; path = Source/BeamAVMusicPlayerProvider.m; sourceTree = "<group>"; };
+		62599E5865A7753FF3C63FECBCD1383F /* APAvatarImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAvatarImageView-dummy.m"; sourceTree = "<group>"; };
 		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		6437C050025F1A8C69647B6744A18170 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		663FC8B8350D10A667A2FAF5EF29708C /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
-		67EF21C05F6022C159A48D277047EE60 /* BeamMusicPlayerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerDelegate.h; path = Source/BeamMusicPlayerDelegate.h; sourceTree = "<group>"; };
-		6B1489AD4AB03D8E7AD0B4DD1A3122D0 /* OBSlider-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OBSlider-Private.xcconfig"; sourceTree = "<group>"; };
+		67DD36152D5F0FCBD2E7EF9017102A22 /* AutoScrollLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutoScrollLabel.m; path = Source/AutoScrollLabel.m; sourceTree = "<group>"; };
+		6D4037E588E8A1EBB023791929F5CC53 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		6D8B3CFF24CFD0E0595A0749F2E720EE /* BeamMusicPlayerTransparentToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamMusicPlayerTransparentToolbar.m; path = Source/BeamMusicPlayerTransparentToolbar.m; sourceTree = "<group>"; };
 		6DD298F4EF2F68C4B172982286D20D49 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		75AD904799A408A832AE3517E5376AA8 /* BeamMusicPlayerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeamMusicPlayerViewController-prefix.pch"; sourceTree = "<group>"; };
+		6F1A6DFB1C5BE4B0CCDA9E81ADD6ADF5 /* BeamMusicPlayerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeamMusicPlayerViewController-prefix.pch"; sourceTree = "<group>"; };
+		733EFCEE870C443EA0EF160B742BAD74 /* BeamMusicPlayerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerDelegate.h; path = Source/BeamMusicPlayerDelegate.h; sourceTree = "<group>"; };
 		76C518201A486FCF7036C9F9DDBD593D /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		7731973A9BAB532E33443424A65A992C /* BeamMusicPlayerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeamMusicPlayerViewController-dummy.m"; sourceTree = "<group>"; };
-		7AECF9F4CC3AADB1413D41E74F492445 /* BeamMusicPlayerViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "BeamMusicPlayerViewController~ipad.xib"; path = "Source/BeamMusicPlayerViewController~ipad.xib"; sourceTree = "<group>"; };
 		7BFEE3E0C36A901C0D63CDBB8F8D490A /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		7E1763D689FFF87A52680D3FDBBCCA2F /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		80965F2736166536C733155A5ADC0A48 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		83F8CEA8D6C3D34590016ED7FF78B90C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
-		84C2C0F4EAABC13F8E99DB6E42324180 /* BeamMusicPlayerTransparentToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamMusicPlayerTransparentToolbar.m; path = Source/BeamMusicPlayerTransparentToolbar.m; sourceTree = "<group>"; };
-		86CC66605451F38C2777402525528C35 /* BeamMPMusicPlayerProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamMPMusicPlayerProvider.m; path = Source/BeamMPMusicPlayerProvider.m; sourceTree = "<group>"; };
-		9952CA1C166B94BFFBAF42E03D201011 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		9C3CCF2E7F3E7B66B05693F8369DF55C /* APAvatarImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAvatarImageView-dummy.m"; sourceTree = "<group>"; };
+		851D270BC323C6C5364C32F6E5BAD17E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		87829D055C30FB6931B4C855CD6B8385 /* BeamMusicPlayerViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BeamMusicPlayerViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		89A04AAC31B6433C755A2A266D2A4AD5 /* libAPAvatarImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPAvatarImageView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D954883C5C2BE69AEAD88D3D170C01E /* OBSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OBSlider.m; path = OBSlider/OBSlider.m; sourceTree = "<group>"; };
+		90A58BE79F4161FD5370B043984D5792 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		9368E06FBEACA70A47D6CD6AC426B523 /* OBSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OBSlider-dummy.m"; sourceTree = "<group>"; };
+		9C5C209B84736910042381AB2158198D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9FBBF9088323B0F5BC075F550470B3B1 /* OBSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OBSlider.h; path = OBSlider/OBSlider.h; sourceTree = "<group>"; };
 		A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		A40C6447B682EB3E375131A658878778 /* APAvatarImageView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "APAvatarImageView-Private.xcconfig"; sourceTree = "<group>"; };
 		A4E3C75131DB73B535BA7338F6201845 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A920F2E3E3F4ABE487F41E53653F40AE /* APAvatarImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APAvatarImageView.xcconfig; sourceTree = "<group>"; };
-		AAC061EF598B35CDB7BA4A82D868B8BD /* BeamMusicPlayerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeamMusicPlayerViewController.xcconfig; sourceTree = "<group>"; };
+		A64E86143F1D08301C4A1FCDA54E13A2 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		B3D5ADC47369DCB41D20305EB6B00EFA /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
-		B7EA480B411A24A4B98C54C485945D6B /* OBSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OBSlider-prefix.pch"; sourceTree = "<group>"; };
+		B9FFAD5B1E8B9CD289E1FB3BDC08224D /* AutoScrollLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoScrollLabel.h; path = Source/AutoScrollLabel.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC7B40F1DD3D4BD6FEFC1EF8B8A4A861 /* AutoScrollLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoScrollLabel.h; path = Source/AutoScrollLabel.h; sourceTree = "<group>"; };
 		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		C0A45D7931B0A949EF877BCE19434F6B /* NSDateFormatter+Duration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Duration.h"; path = "Source/NSDateFormatter+Duration.h"; sourceTree = "<group>"; };
-		C4DF3F5BAB8A93E6FC93528527DED9A1 /* APAvatarImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAvatarImageView.h; path = Classes/APAvatarImageView.h; sourceTree = "<group>"; };
+		C22DCED4ED5948575F5DAFBBBE61A28A /* NSDateFormatter+Duration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Duration.m"; path = "Source/NSDateFormatter+Duration.m"; sourceTree = "<group>"; };
+		C518DF3E013856484649D0A6A59A67FD /* BeamMusicPlayerViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "BeamMusicPlayerViewController~ipad.xib"; path = "Source/BeamMusicPlayerViewController~ipad.xib"; sourceTree = "<group>"; };
 		CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		CFD7BFBF909BD773A17BE957CDC3ABC2 /* AutoScrollLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutoScrollLabel.m; path = Source/AutoScrollLabel.m; sourceTree = "<group>"; };
-		D583EAAC04DC97B4E3CE24A39BE9E343 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CC94D42F1710AB48A5BE7F18DF3DFD1B /* APAvatarImageView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "APAvatarImageView-Private.xcconfig"; sourceTree = "<group>"; };
+		D0A8CF676626F9DB5795158085453512 /* BeamAVMusicPlayerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamAVMusicPlayerProvider.h; path = Source/BeamAVMusicPlayerProvider.h; sourceTree = "<group>"; };
+		D4DBEAF6E3054175FFCF8A3716477056 /* OBSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OBSlider.xcconfig; sourceTree = "<group>"; };
+		D5CBAAF1C476D7856EF3C0FCCCB9524D /* BeamMusicPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerViewController.h; path = Source/BeamMusicPlayerViewController.h; sourceTree = "<group>"; };
 		D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		D8DD99E890B5B9C7A22168DCDFF7F2F2 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
-		D9503470B4AAC808A4D4FEB488E3AA50 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		DBE0178FFCBF0FC7ED8C4464EE8D2FCF /* BeamMusicPlayerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BeamMusicPlayerViewController.xib; path = Source/BeamMusicPlayerViewController.xib; sourceTree = "<group>"; };
+		DC93F6EBB34E0FB7FA5527955E4F88C6 /* BeamMusicPlayerTransparentToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerTransparentToolbar.h; path = Source/BeamMusicPlayerTransparentToolbar.h; sourceTree = "<group>"; };
 		E08CBFF9472FADDA0B345BBEE34EEF53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EFD1D330A4BC70F1C4C2ED395E2258 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		E7B5566E66AC64253CA228C460AE2931 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
-		EC5FB73488FFDC39FFD6BD9F983B16DA /* OBSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OBSlider.m; path = OBSlider/OBSlider.m; sourceTree = "<group>"; };
-		F2E8C82819855B87DC161825E8379D2A /* NSDateFormatter+Duration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+Duration.m"; path = "Source/NSDateFormatter+Duration.m"; sourceTree = "<group>"; };
-		F6193F295A84BDAFD2A450DFA938CEFF /* APAvatarImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAvatarImageView.m; path = Classes/APAvatarImageView.m; sourceTree = "<group>"; };
+		F02311D8196DBA763057DD993760C3CA /* BeamMusicPlayerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeamMusicPlayerDataSource.h; path = Source/BeamMusicPlayerDataSource.h; sourceTree = "<group>"; };
 		F6810D818545BACFD21ACAB72D23DC72 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		F785EDAB2C394338D4887DDBF3F31F9C /* NSDateFormatter+Duration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+Duration.h"; path = "Source/NSDateFormatter+Duration.h"; sourceTree = "<group>"; };
+		F832553D1D785BC6500D14449F7DCA1B /* BeamMPMusicPlayerProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeamMPMusicPlayerProvider.m; path = Source/BeamMPMusicPlayerProvider.m; sourceTree = "<group>"; };
 		FE98519651ECB3ECA5C602AD82864FE1 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		FF3208FF08E5445EB9E5049F4C5D94F3 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
-		FF85B756E24D4B1CCFBD9F4B98C1802E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -235,32 +237,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DC75ACAF18425C877F4F7E6ABF3487B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D7E0DFD884D68BB9FA046DC6DCE3F16 /* CoreGraphics.framework in Frameworks */,
-				85C1FB79B43D15FF57F6CB2E52AE2369 /* Foundation.framework in Frameworks */,
-				7AE1A5E1A629D377AF3C3710367B7726 /* MediaPlayer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F81474B42D6B0800EE8378B838813B5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				013B0C48D8A56D765FAFDEB38C2BFFBF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62C2271B2CC88662335EBCFC984F0E91 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F76C0A746EAD52E13FB132CA975FD704 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6483CA59DE76B7505AC83F07E09B7794 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,17 +246,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67BF0696297A9D378A61C3B3E779700E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1601CD290BDD30F91A5FC57F7B99DD /* CoreGraphics.framework in Frameworks */,
+				504BE9861A35DFC1043C9CE76A797EEA /* Foundation.framework in Frameworks */,
+				B1A9654713041D9921C2689944093912 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0E1CCAA198444874D73918522B821B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776C75A53BCD36E6971BE5BE26F06419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8ECF2684E06D8D713087BF2C70638C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05236E7F1A5AEC6AE2E7B55911173E25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DF1F5AF5501F98E647197C89108D6D6 /* OBSlider */ = {
+		1F60EB30DDACE0D563B1BBB7915610BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1D32BB41CD5DE792F0FBCF2A96B4633B /* OBSlider.h */,
-				EC5FB73488FFDC39FFD6BD9F983B16DA /* OBSlider.m */,
-				F8D14E1E734F1DCCD1D453B51CAEF10C /* Support Files */,
+				4EDAD917B6FAA9AF9BD19FBB2A7AAF36 /* BeamMusicPlayerController.bundle */,
+				435D8F18354D5051F10E595756D25F21 /* BeamMusicPlayerViewController.xib */,
+				C518DF3E013856484649D0A6A59A67FD /* BeamMusicPlayerViewController~ipad.xib */,
 			);
-			path = OBSlider;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
@@ -294,28 +296,227 @@
 		3158AF01A7A0F5D8E949DF60F39113DD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9952CA1C166B94BFFBAF42E03D201011 /* CoreGraphics.framework */,
+				1805FDAEA66420C06525B49EB9993E13 /* CoreGraphics.framework */,
 				421D88E3116BD4238BF4D72BFB3802D8 /* Foundation.framework */,
 				6DD298F4EF2F68C4B172982286D20D49 /* ImageIO.framework */,
-				FF85B756E24D4B1CCFBD9F4B98C1802E /* MediaPlayer.framework */,
+				08A05B5B3AC25284CE6987332775847B /* MediaPlayer.framework */,
 				248AF69DE57106C64A592DE30A9D615A /* QuartzCore.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		372C3CE3351FC02EB2586312F1123E39 /* Support Files */ = {
+		31DD2E9B0A617F0D8239F512674364F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				42B68C33A104B941B1564CD7C720F9A7 /* SDWebImage.xcconfig */,
+				137E94E4315E49A6377AFA9CCF6781D8 /* SVProgressHUD.xcconfig */,
+				41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */,
+				FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */,
+				A64E86143F1D08301C4A1FCDA54E13A2 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		339FD71B9303D5316F3221DB5A71CB8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4DBEAF6E3054175FFCF8A3716477056 /* OBSlider.xcconfig */,
+				39728CA452D207F96DA1BC07CD7FBC68 /* OBSlider-Private.xcconfig */,
+				9368E06FBEACA70A47D6CD6AC426B523 /* OBSlider-dummy.m */,
+				2F7198140DEEB2467B2B7E665D7FCAA7 /* OBSlider-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OBSlider";
+			sourceTree = "<group>";
+		};
+		52C0F78EF511E0D4A60E09F66287381F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C7DA9E2B0C72826A5016589DB777AD2 /* BeamMusicPlayerViewController.xcconfig */,
+				87829D055C30FB6931B4C855CD6B8385 /* BeamMusicPlayerViewController-Private.xcconfig */,
+				2B946C7396D485186373FB974317AF5F /* BeamMusicPlayerViewController-dummy.m */,
+				6F1A6DFB1C5BE4B0CCDA9E81ADD6ADF5 /* BeamMusicPlayerViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BeamMusicPlayerViewController";
+			sourceTree = "<group>";
+		};
+		684255A34D1325CD0042FF3D84E1699B /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				EC464DB9F9B6DB4DD645262DB37C501D /* Frameworks */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				A92CE836BB5DCC750775E122B60B61AE /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8261AEF49F9F9DFB15559CE0C5DD1C6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C5C209B84736910042381AB2158198D /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		87D424EC7C9B844990693091D80EEE5B /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				E56BBAEDFCD92518B8ECB0005C07EF8F /* Frameworks */,
+			);
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				80965F2736166536C733155A5ADC0A48 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				2EB632ED0D37232E6F59DF372C18F21F /* Pods.debug.xcconfig */,
+				079F951FC9C3629C927E280CAAC1326F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		A10FD0561324EC339AFA04A62180A82B /* OBSlider */ = {
+			isa = PBXGroup;
+			children = (
+				9FBBF9088323B0F5BC075F550470B3B1 /* OBSlider.h */,
+				8D954883C5C2BE69AEAD88D3D170C01E /* OBSlider.m */,
+				339FD71B9303D5316F3221DB5A71CB8F /* Support Files */,
+			);
+			path = OBSlider;
+			sourceTree = "<group>";
+		};
+		A92CE836BB5DCC750775E122B60B61AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D33E8A3E66438E02E667944E67126 /* APAvatarImageView */,
+				FD882CF6FCDBAAA807CBA35952635384 /* BeamMusicPlayerViewController */,
+				87D424EC7C9B844990693091D80EEE5B /* Crashlytics */,
+				684255A34D1325CD0042FF3D84E1699B /* Fabric */,
+				A10FD0561324EC339AFA04A62180A82B /* OBSlider */,
+				CEB0D91D1DF70C1EFD503CE26B93A742 /* SDWebImage */,
+				D64105D32B448DE896720FF8F3241090 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF9D33E8A3E66438E02E667944E67126 /* APAvatarImageView */ = {
+			isa = PBXGroup;
+			children = (
+				25F8D39A8BF02719583F4EA63AD99058 /* APAvatarImageView.h */,
+				08376D184E6307E6276A024C7594A648 /* APAvatarImageView.m */,
+				BBCC543425CAFAD594B81C031A270BCA /* Support Files */,
+			);
+			path = APAvatarImageView;
+			sourceTree = "<group>";
+		};
+		BBCC543425CAFAD594B81C031A270BCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C70DC22BA4D43358B3787A0D4DB1F9B /* APAvatarImageView.xcconfig */,
+				CC94D42F1710AB48A5BE7F18DF3DFD1B /* APAvatarImageView-Private.xcconfig */,
+				62599E5865A7753FF3C63FECBCD1383F /* APAvatarImageView-dummy.m */,
+				3503A74EAD40E28BB6CD46D158F9048D /* APAvatarImageView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APAvatarImageView";
+			sourceTree = "<group>";
+		};
+		BEB82774CF90E5637446316461F51BF4 /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				27C86548DDC606B4CC885A9E0A99B063 /* BeamMPMusicPlayerProvider.h */,
+				F832553D1D785BC6500D14449F7DCA1B /* BeamMPMusicPlayerProvider.m */,
+			);
+			name = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A04AAC31B6433C755A2A266D2A4AD5 /* libAPAvatarImageView.a */,
+				05380A6CA34F64FC6AD017BE8092D28B /* libBeamMusicPlayerViewController.a */,
+				5FA977A92EA8F65068FFE8D118459900 /* libOBSlider.a */,
+				E08CBFF9472FADDA0B345BBEE34EEF53 /* libPods.a */,
+				A4E3C75131DB73B535BA7338F6201845 /* libSDWebImage.a */,
+				13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB0D91D1DF70C1EFD503CE26B93A742 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				F208183E55C6E43765ACE9B996D15389 /* Core */,
+				EB9C2BA8C3FA35B9919A56076824D1F5 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D64105D32B448DE896720FF8F3241090 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */,
+				004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */,
+				D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */,
+				A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */,
+				8261AEF49F9F9DFB15559CE0C5DD1C6A /* Resources */,
+				31DD2E9B0A617F0D8239F512674364F7 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E56BBAEDFCD92518B8ECB0005C07EF8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90A58BE79F4161FD5370B043984D5792 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB9C2BA8C3FA35B9919A56076824D1F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				193EB439D8EE3B995673F3528B2B4D18 /* SDWebImage.xcconfig */,
 				3C44A9314BC28FD51843EF98EC017629 /* SDWebImage-Private.xcconfig */,
 				36868875BC2FD7CD9ACA53E772A68147 /* SDWebImage-dummy.m */,
-				464004837BDFA35197657175EB1FF593 /* SDWebImage-prefix.pch */,
+				6D4037E588E8A1EBB023791929F5CC53 /* SDWebImage-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SDWebImage";
 			sourceTree = "<group>";
 		};
-		3C670EC708C0657267CB9471AB94D0B3 /* Core */ = {
+		EC464DB9F9B6DB4DD645262DB37C501D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851D270BC323C6C5364C32F6E5BAD17E /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F208183E55C6E43765ACE9B996D15389 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				76C518201A486FCF7036C9F9DDBD593D /* NSData+ImageContentType.h */,
@@ -351,204 +552,31 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		FD882CF6FCDBAAA807CBA35952635384 /* BeamMusicPlayerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				C6CF03EE21E3DEA941702CB6F187B480 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8897C15C6BA0CF3711D5A7AEDB67CFFB /* MediaPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				52216F7C165729B0AB0AB13A8C38F7AB /* BeamMPMusicPlayerProvider.h */,
-				86CC66605451F38C2777402525528C35 /* BeamMPMusicPlayerProvider.m */,
-			);
-			name = MediaPlayer;
-			sourceTree = "<group>";
-		};
-		89A341F9B296AF4093263906D8D63A18 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5C5662F78493E515D38BCB0408ECB8E8 /* BeamMusicPlayerController.bundle */,
-				DBE0178FFCBF0FC7ED8C4464EE8D2FCF /* BeamMusicPlayerViewController.xib */,
-				7AECF9F4CC3AADB1413D41E74F492445 /* BeamMusicPlayerViewController~ipad.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
-				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
-				80965F2736166536C733155A5ADC0A48 /* Pods-dummy.m */,
-				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
-				2EB632ED0D37232E6F59DF372C18F21F /* Pods.debug.xcconfig */,
-				079F951FC9C3629C927E280CAAC1326F /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		A3C1AA625812E41A0906F3A5CA8A3A5B /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				3C670EC708C0657267CB9471AB94D0B3 /* Core */,
-				372C3CE3351FC02EB2586312F1123E39 /* Support Files */,
-			);
-			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		A7ED7C4001EAE98DD4611B139145DA0B /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				CA63E54340658CFC42C26271C16AD1AB /* SVIndefiniteAnimatedView.h */,
-				004432F9ACB8EFC13B7338B91FA0B8D4 /* SVIndefiniteAnimatedView.m */,
-				D640281A3F42E4FAD9878467BAB9928C /* SVProgressHUD.h */,
-				A2BB94EBF0E4AAB5744A4933E65C05C4 /* SVProgressHUD.m */,
-				F2F02CAE26FDE9180CFF0671C3CA6893 /* Resources */,
-				DE6E96436B35E21261DC7B8A3E5A60FA /* Support Files */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		B05359561C3227BAEED074759E4776BC /* APAvatarImageView */ = {
-			isa = PBXGroup;
-			children = (
-				C4DF3F5BAB8A93E6FC93528527DED9A1 /* APAvatarImageView.h */,
-				F6193F295A84BDAFD2A450DFA938CEFF /* APAvatarImageView.m */,
-				D48571F0D79C9CB4C63B3B63076BD2A5 /* Support Files */,
-			);
-			path = APAvatarImageView;
-			sourceTree = "<group>";
-		};
-		BFB1E3966D735A0D8712070DE8AC9209 /* BeamMusicPlayerViewController */ = {
-			isa = PBXGroup;
-			children = (
-				BC7B40F1DD3D4BD6FEFC1EF8B8A4A861 /* AutoScrollLabel.h */,
-				CFD7BFBF909BD773A17BE957CDC3ABC2 /* AutoScrollLabel.m */,
-				59049FCBCCE1A74C49B9C5E347FA781F /* BeamAVMusicPlayerProvider.h */,
-				610B09887C67EFD20AC0BC52233757E9 /* BeamAVMusicPlayerProvider.m */,
-				039CFEDE644327BA0718B222B6D239AA /* BeamMusicPlayerDataSource.h */,
-				67EF21C05F6022C159A48D277047EE60 /* BeamMusicPlayerDelegate.h */,
-				09F89D2E43347B82E985800B8B2D8999 /* BeamMusicPlayerTransparentToolbar.h */,
-				84C2C0F4EAABC13F8E99DB6E42324180 /* BeamMusicPlayerTransparentToolbar.m */,
-				08B9E6E784545DD5ED6256412CBA6617 /* BeamMusicPlayerViewController.h */,
-				0D693DC09F85E1630BFE2AEA70B037CF /* BeamMusicPlayerViewController.m */,
-				C0A45D7931B0A949EF877BCE19434F6B /* NSDateFormatter+Duration.h */,
-				F2E8C82819855B87DC161825E8379D2A /* NSDateFormatter+Duration.m */,
-				8897C15C6BA0CF3711D5A7AEDB67CFFB /* MediaPlayer */,
-				89A341F9B296AF4093263906D8D63A18 /* Resources */,
-				D9F1327BEB8F77DC99AACBE99AD574A1 /* Support Files */,
+				B9FFAD5B1E8B9CD289E1FB3BDC08224D /* AutoScrollLabel.h */,
+				67DD36152D5F0FCBD2E7EF9017102A22 /* AutoScrollLabel.m */,
+				D0A8CF676626F9DB5795158085453512 /* BeamAVMusicPlayerProvider.h */,
+				25C572779D77C7405CF7D34B42BBA39F /* BeamAVMusicPlayerProvider.m */,
+				F02311D8196DBA763057DD993760C3CA /* BeamMusicPlayerDataSource.h */,
+				733EFCEE870C443EA0EF160B742BAD74 /* BeamMusicPlayerDelegate.h */,
+				DC93F6EBB34E0FB7FA5527955E4F88C6 /* BeamMusicPlayerTransparentToolbar.h */,
+				6D8B3CFF24CFD0E0595A0749F2E720EE /* BeamMusicPlayerTransparentToolbar.m */,
+				D5CBAAF1C476D7856EF3C0FCCCB9524D /* BeamMusicPlayerViewController.h */,
+				169C2AF313BDF0119EC75A82C8FB8F44 /* BeamMusicPlayerViewController.m */,
+				F785EDAB2C394338D4887DDBF3F31F9C /* NSDateFormatter+Duration.h */,
+				C22DCED4ED5948575F5DAFBBBE61A28A /* NSDateFormatter+Duration.m */,
+				BEB82774CF90E5637446316461F51BF4 /* MediaPlayer */,
+				1F60EB30DDACE0D563B1BBB7915610BC /* Resources */,
+				52C0F78EF511E0D4A60E09F66287381F /* Support Files */,
 			);
 			path = BeamMusicPlayerViewController;
-			sourceTree = "<group>";
-		};
-		C6CF03EE21E3DEA941702CB6F187B480 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B05359561C3227BAEED074759E4776BC /* APAvatarImageView */,
-				BFB1E3966D735A0D8712070DE8AC9209 /* BeamMusicPlayerViewController */,
-				0DF1F5AF5501F98E647197C89108D6D6 /* OBSlider */,
-				A3C1AA625812E41A0906F3A5CA8A3A5B /* SDWebImage */,
-				A7ED7C4001EAE98DD4611B139145DA0B /* SVProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2675B7D01740EF6F100EA896A1A66E05 /* libAPAvatarImageView.a */,
-				49EC1597345A4EAF252DA61BD191CB1F /* libBeamMusicPlayerViewController.a */,
-				4845969E4591BC0BBF447E3379039176 /* libOBSlider.a */,
-				E08CBFF9472FADDA0B345BBEE34EEF53 /* libPods.a */,
-				A4E3C75131DB73B535BA7338F6201845 /* libSDWebImage.a */,
-				13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D48571F0D79C9CB4C63B3B63076BD2A5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A920F2E3E3F4ABE487F41E53653F40AE /* APAvatarImageView.xcconfig */,
-				A40C6447B682EB3E375131A658878778 /* APAvatarImageView-Private.xcconfig */,
-				9C3CCF2E7F3E7B66B05693F8369DF55C /* APAvatarImageView-dummy.m */,
-				504C10BF8A498CDE50C7DB5CC6928E07 /* APAvatarImageView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/APAvatarImageView";
-			sourceTree = "<group>";
-		};
-		D9F1327BEB8F77DC99AACBE99AD574A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AAC061EF598B35CDB7BA4A82D868B8BD /* BeamMusicPlayerViewController.xcconfig */,
-				4A10F65AC19296EF35BA6F941E67D053 /* BeamMusicPlayerViewController-Private.xcconfig */,
-				7731973A9BAB532E33443424A65A992C /* BeamMusicPlayerViewController-dummy.m */,
-				75AD904799A408A832AE3517E5376AA8 /* BeamMusicPlayerViewController-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BeamMusicPlayerViewController";
-			sourceTree = "<group>";
-		};
-		DE6E96436B35E21261DC7B8A3E5A60FA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D9503470B4AAC808A4D4FEB488E3AA50 /* SVProgressHUD.xcconfig */,
-				41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */,
-				FFE1515F429D484D775013DC61410E45 /* SVProgressHUD-dummy.m */,
-				5F7437A6B40B073730422AC713E7E4C8 /* SVProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		F2F02CAE26FDE9180CFF0671C3CA6893 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D583EAAC04DC97B4E3CE24A39BE9E343 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F8D14E1E734F1DCCD1D453B51CAEF10C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1528403F0BB004C199F581EECD47AA01 /* OBSlider.xcconfig */,
-				6B1489AD4AB03D8E7AD0B4DD1A3122D0 /* OBSlider-Private.xcconfig */,
-				3936DE639518CAD2F4BE45B4D10717FB /* OBSlider-dummy.m */,
-				B7EA480B411A24A4B98C54C485945D6B /* OBSlider-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OBSlider";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5E650B839C3DC515AB6E2E9E5CAB3290 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBAE5BA20B28EA955023CA213D2E1629 /* OBSlider.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		70E692A35509AA009F46AAA3DCB430E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,18 +599,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F3411D942BAF34EC134890A9C2B994C /* Headers */ = {
+		769D727075881BF4AFBC71CD95B0A2B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9598A5777054DD364B020402F027718 /* AutoScrollLabel.h in Headers */,
-				8F01D4CBC6E9AE66E361280E94183AEA /* BeamAVMusicPlayerProvider.h in Headers */,
-				2F32384B0EA3A9BA755C3931EBE959A5 /* BeamMPMusicPlayerProvider.h in Headers */,
-				2EC30C582CFB2F0D35B70C8EE610B163 /* BeamMusicPlayerDataSource.h in Headers */,
-				9C5BAFDFF543ED9F56126092015F868B /* BeamMusicPlayerDelegate.h in Headers */,
-				5EE6064B30572D8399594D9A1730EF93 /* BeamMusicPlayerTransparentToolbar.h in Headers */,
-				8F26BB5DA291B3282B6C05634C4282EC /* BeamMusicPlayerViewController.h in Headers */,
-				37917632D039AB6873A78A17CC586B84 /* NSDateFormatter+Duration.h in Headers */,
+				9C13EF8DF855150AC9682CD9E2DAE167 /* APAvatarImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E057763A512F526FCED77827AA45C62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8337A22024106F5596CAF1873F03C52 /* OBSlider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,17 +624,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E37D5540E306C9E816334B6799AC2763 /* Headers */ = {
+		B06A32A33F76C50A593D6757D9F27E11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B88EC63A43B378C3F6B1702058AFAF4 /* APAvatarImageView.h in Headers */,
+				C1AE7ADBA7C044C8CBBFF4960CCA1363 /* AutoScrollLabel.h in Headers */,
+				8C411666A1C026FA80728881B35CA07E /* BeamAVMusicPlayerProvider.h in Headers */,
+				9564D3C1760E5430ED150B9043450A3E /* BeamMPMusicPlayerProvider.h in Headers */,
+				78410055AFB652277D64C1C159B1500E /* BeamMusicPlayerDataSource.h in Headers */,
+				C5F8A493047EEAAA37B61E79C09D637A /* BeamMusicPlayerDelegate.h in Headers */,
+				433CA2181681EF609B8B7A023E9E83FD /* BeamMusicPlayerTransparentToolbar.h in Headers */,
+				A012D0C95DBF2342D05AE6FC07A788B2 /* BeamMusicPlayerViewController.h in Headers */,
+				4B0AD80C52F534C68D0F06689F77D14D /* NSDateFormatter+Duration.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2A39D1206B19B929778AA0B850E324C4 /* BeamMusicPlayerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862AC5F0B2C02A15988173D6F19C8F16 /* Build configuration list for PBXNativeTarget "BeamMusicPlayerViewController" */;
+			buildPhases = (
+				36729DEAD25FA6CB43A1509DD32EEA5E /* Sources */,
+				67BF0696297A9D378A61C3B3E779700E /* Frameworks */,
+				B06A32A33F76C50A593D6757D9F27E11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F1C6AAD33D135B78B9C13F7FC17919 /* PBXTargetDependency */,
+			);
+			name = BeamMusicPlayerViewController;
+			productName = BeamMusicPlayerViewController;
+			productReference = 05380A6CA34F64FC6AD017BE8092D28B /* libBeamMusicPlayerViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		3086726EEC8820D4F5EC94922408A791 /* Pods */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2B7747A10CFCD6116D36F847517223F /* Build configuration list for PBXNativeTarget "Pods" */;
@@ -616,11 +670,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				50130FA3CF6D919DBF9D94253DC678B9 /* PBXTargetDependency */,
-				F0C0883C899A71BF188E1C43385FAFE3 /* PBXTargetDependency */,
-				1447967277CB80C54C45F1068BF9FCF3 /* PBXTargetDependency */,
-				B2FCD6AEAF24CBF9ABF831C91741D437 /* PBXTargetDependency */,
-				F2B31B59F582D9785B92798886925775 /* PBXTargetDependency */,
+				0464A01F544B203E8C4E8B0BE8023FA2 /* PBXTargetDependency */,
+				0DE3547DEBB8C116F7575E154247A419 /* PBXTargetDependency */,
+				F954BB9208CDD851462E78B553A3EF77 /* PBXTargetDependency */,
+				16EEA9A2BB4F584E077DDF9FD59B2955 /* PBXTargetDependency */,
+				8751622BB6177653729CC1700B822D5C /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -644,13 +698,13 @@
 			productReference = A4E3C75131DB73B535BA7338F6201845 /* libSDWebImage.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		56263C761FA7C9F96E9CEB7ADFE8AD78 /* OBSlider */ = {
+		83B2CE3A94C3CF75769305A9BDB004DC /* OBSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCFCBF6B96CB44669CD98B6A69F164F2 /* Build configuration list for PBXNativeTarget "OBSlider" */;
+			buildConfigurationList = 1F06AAC2082BD1547D20A955BBEB28FB /* Build configuration list for PBXNativeTarget "OBSlider" */;
 			buildPhases = (
-				DD5511401A0094E5D649ABE2084EA456 /* Sources */,
-				62C2271B2CC88662335EBCFC984F0E91 /* Frameworks */,
-				5E650B839C3DC515AB6E2E9E5CAB3290 /* Headers */,
+				A692013FAE57AE1EC0F134CE1BE40BC4 /* Sources */,
+				7D0E1CCAA198444874D73918522B821B /* Frameworks */,
+				9E057763A512F526FCED77827AA45C62 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -658,25 +712,7 @@
 			);
 			name = OBSlider;
 			productName = OBSlider;
-			productReference = 4845969E4591BC0BBF447E3379039176 /* libOBSlider.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		83242CF23C5A19CCDBCB98134817539C /* BeamMusicPlayerViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B28E3372B68B9E6CAF34C042A1591F83 /* Build configuration list for PBXNativeTarget "BeamMusicPlayerViewController" */;
-			buildPhases = (
-				A14902B8C653D760C59325B00FB39B89 /* Sources */,
-				5DC75ACAF18425C877F4F7E6ABF3487B /* Frameworks */,
-				9F3411D942BAF34EC134890A9C2B994C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22D836D3895C34D09ACC5D6611079752 /* PBXTargetDependency */,
-			);
-			name = BeamMusicPlayerViewController;
-			productName = BeamMusicPlayerViewController;
-			productReference = 49EC1597345A4EAF252DA61BD191CB1F /* libBeamMusicPlayerViewController.a */;
+			productReference = 5FA977A92EA8F65068FFE8D118459900 /* libOBSlider.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */ = {
@@ -696,13 +732,13 @@
 			productReference = 13859ACB1950432C31D933C0077EFCFA /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F4A6579DE6E078B00B9B7782DFECFDB3 /* APAvatarImageView */ = {
+		D726DC21A560145FCF3B3B0A98D48844 /* APAvatarImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9BDD2AF348F887905BBCDA460674633 /* Build configuration list for PBXNativeTarget "APAvatarImageView" */;
+			buildConfigurationList = 590A54B6E91CC6024D93DEE44414EDF6 /* Build configuration list for PBXNativeTarget "APAvatarImageView" */;
 			buildPhases = (
-				45A1049D096AEEB1BBBF48A394CE83B2 /* Sources */,
-				5F81474B42D6B0800EE8378B838813B5 /* Frameworks */,
-				E37D5540E306C9E816334B6799AC2763 /* Headers */,
+				CDB69E27B7E6C3977B9D92170DBAA56A /* Sources */,
+				EB8ECF2684E06D8D713087BF2C70638C /* Frameworks */,
+				769D727075881BF4AFBC71CD95B0A2B4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -710,7 +746,7 @@
 			);
 			name = APAvatarImageView;
 			productName = APAvatarImageView;
-			productReference = 2675B7D01740EF6F100EA896A1A66E05 /* libAPAvatarImageView.a */;
+			productReference = 89A04AAC31B6433C755A2A266D2A4AD5 /* libAPAvatarImageView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -734,9 +770,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4A6579DE6E078B00B9B7782DFECFDB3 /* APAvatarImageView */,
-				83242CF23C5A19CCDBCB98134817539C /* BeamMusicPlayerViewController */,
-				56263C761FA7C9F96E9CEB7ADFE8AD78 /* OBSlider */,
+				D726DC21A560145FCF3B3B0A98D48844 /* APAvatarImageView */,
+				2A39D1206B19B929778AA0B850E324C4 /* BeamMusicPlayerViewController */,
+				83B2CE3A94C3CF75769305A9BDB004DC /* OBSlider */,
 				3086726EEC8820D4F5EC94922408A791 /* Pods */,
 				5352D432641F0656C90741034E32F31E /* SDWebImage */,
 				B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */,
@@ -745,6 +781,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		36729DEAD25FA6CB43A1509DD32EEA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F9D2A6DE3A98542C735769944C0737 /* AutoScrollLabel.m in Sources */,
+				B7101FA3A8C513C6BA99753383F01C77 /* BeamAVMusicPlayerProvider.m in Sources */,
+				619E1725C0885AE12ABCEE926504264F /* BeamMPMusicPlayerProvider.m in Sources */,
+				BEA9C73F280A2E55688D03BB19475E44 /* BeamMusicPlayerTransparentToolbar.m in Sources */,
+				012192DEE06E031E9708B1884C699830 /* BeamMusicPlayerViewController-dummy.m in Sources */,
+				CC01FAB522A0FEFB050E183F0D6A9AAD /* BeamMusicPlayerViewController.m in Sources */,
+				323BC75C748EEC77ED05418A7582409A /* NSDateFormatter+Duration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D0E2D1B45261FB1DAC837B020C4EC01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -755,26 +805,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45A1049D096AEEB1BBBF48A394CE83B2 /* Sources */ = {
+		A692013FAE57AE1EC0F134CE1BE40BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA2C9FD573A8855EAFD73EE4CFE3958 /* APAvatarImageView-dummy.m in Sources */,
-				A454F40CDB43579C399F1A2B9F737466 /* APAvatarImageView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A14902B8C653D760C59325B00FB39B89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B139CD989CFF393FD6547BB642EF31BD /* AutoScrollLabel.m in Sources */,
-				30518648CA2E4B70B18A2C6826C8735F /* BeamAVMusicPlayerProvider.m in Sources */,
-				5E2415F86EFD13809700D5AFEEFEC262 /* BeamMPMusicPlayerProvider.m in Sources */,
-				EA8094433D6D39119B281846A6516A99 /* BeamMusicPlayerTransparentToolbar.m in Sources */,
-				36A6C7C86B7F6581FADCBECFA77C364C /* BeamMusicPlayerViewController-dummy.m in Sources */,
-				6BDEFE9E2BC1221FC2B63975F1D69D28 /* BeamMusicPlayerViewController.m in Sources */,
-				E997709A153529095FF16F17E517D9DF /* NSDateFormatter+Duration.m in Sources */,
+				9FFC11A4A954342B6FE90858E78E56F0 /* OBSlider-dummy.m in Sources */,
+				47E6CAFEC64AAD5CA04E986061079597 /* OBSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,12 +822,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD5511401A0094E5D649ABE2084EA456 /* Sources */ = {
+		CDB69E27B7E6C3977B9D92170DBAA56A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F89BE5AC44D4A9FC62644D6410FF13 /* OBSlider-dummy.m in Sources */,
-				DEE6C8FBA93876A87123ED4D6A519402 /* OBSlider.m in Sources */,
+				93EA79591BB5BAD1F7C0CE16078255B6 /* APAvatarImageView-dummy.m in Sources */,
+				27AEEA215EF4BB7C99482D92A0ED6EA5 /* APAvatarImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,41 +856,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1447967277CB80C54C45F1068BF9FCF3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OBSlider;
-			target = 56263C761FA7C9F96E9CEB7ADFE8AD78 /* OBSlider */;
-			targetProxy = 212C209770843CDE9023023A02B6346D /* PBXContainerItemProxy */;
-		};
-		22D836D3895C34D09ACC5D6611079752 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OBSlider;
-			target = 56263C761FA7C9F96E9CEB7ADFE8AD78 /* OBSlider */;
-			targetProxy = 664228413F75527C5ED9BFAF0ED47212 /* PBXContainerItemProxy */;
-		};
-		50130FA3CF6D919DBF9D94253DC678B9 /* PBXTargetDependency */ = {
+		0464A01F544B203E8C4E8B0BE8023FA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = APAvatarImageView;
-			target = F4A6579DE6E078B00B9B7782DFECFDB3 /* APAvatarImageView */;
-			targetProxy = D9C20979BF0501B5EAF20C6F1C29E21A /* PBXContainerItemProxy */;
+			target = D726DC21A560145FCF3B3B0A98D48844 /* APAvatarImageView */;
+			targetProxy = 4D91AB70F979BD40DEEA2296FAD6D288 /* PBXContainerItemProxy */;
 		};
-		B2FCD6AEAF24CBF9ABF831C91741D437 /* PBXTargetDependency */ = {
+		0DE3547DEBB8C116F7575E154247A419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeamMusicPlayerViewController;
+			target = 2A39D1206B19B929778AA0B850E324C4 /* BeamMusicPlayerViewController */;
+			targetProxy = 51EDF69EF3C9198A7F16ECB914AFBB9B /* PBXContainerItemProxy */;
+		};
+		16EEA9A2BB4F584E077DDF9FD59B2955 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
 			target = 5352D432641F0656C90741034E32F31E /* SDWebImage */;
-			targetProxy = 1F8A40F9BC4AE9D204F4E7A4BA62965D /* PBXContainerItemProxy */;
+			targetProxy = F5DBBDC135A0B3923A1686513E99F521 /* PBXContainerItemProxy */;
 		};
-		F0C0883C899A71BF188E1C43385FAFE3 /* PBXTargetDependency */ = {
+		69F1C6AAD33D135B78B9C13F7FC17919 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BeamMusicPlayerViewController;
-			target = 83242CF23C5A19CCDBCB98134817539C /* BeamMusicPlayerViewController */;
-			targetProxy = 8C44280A897A6E929AD8A6C38DB24EFA /* PBXContainerItemProxy */;
+			name = OBSlider;
+			target = 83B2CE3A94C3CF75769305A9BDB004DC /* OBSlider */;
+			targetProxy = C7F56294A88923A182C85AE8D73A75F3 /* PBXContainerItemProxy */;
 		};
-		F2B31B59F582D9785B92798886925775 /* PBXTargetDependency */ = {
+		8751622BB6177653729CC1700B822D5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = B281DA29A9C3EDFB45BA53651F6BA611 /* SVProgressHUD */;
-			targetProxy = 9FA5144FEA340A941978343730438E87 /* PBXContainerItemProxy */;
+			targetProxy = 11016E1D96A9D5A89E4412AC47702031 /* PBXContainerItemProxy */;
+		};
+		F954BB9208CDD851462E78B553A3EF77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OBSlider;
+			target = 83B2CE3A94C3CF75769305A9BDB004DC /* OBSlider */;
+			targetProxy = BD46A48BC59BD8BD7E051F2D09F7DBF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -909,6 +945,22 @@
 			};
 			name = Release;
 		};
+		095BED2D0544BC7532B679316561563A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87829D055C30FB6931B4C855CD6B8385 /* BeamMusicPlayerViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BeamMusicPlayerViewController/BeamMusicPlayerViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -948,37 +1000,21 @@
 			};
 			name = Debug;
 		};
-		1835C9C20A38BAE96FDF9AA70B73C400 /* Release */ = {
+		37FEB7B18263552149C1B0048BD7462F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B1489AD4AB03D8E7AD0B4DD1A3122D0 /* OBSlider-Private.xcconfig */;
+			baseConfigurationReference = 39728CA452D207F96DA1BC07CD7FBC68 /* OBSlider-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/OBSlider/OBSlider-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
-		};
-		22BB3EB36C60B28F072D9B145D49F2C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A10F65AC19296EF35BA6F941E67D053 /* BeamMusicPlayerViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BeamMusicPlayerViewController/BeamMusicPlayerViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
+			name = Debug;
 		};
 		3BFCFE419456CB34EC98C8E8F62A9041 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1012,22 +1048,6 @@
 			};
 			name = Release;
 		};
-		689B835D76BC7C45BC2AF87C2B21305F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A40C6447B682EB3E375131A658878778 /* APAvatarImageView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/APAvatarImageView/APAvatarImageView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		7CE4C3B0DEDF874B7C20980006FADFB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41CB04E1A48BC2081D18B7DF61352E67 /* SVProgressHUD-Private.xcconfig */;
@@ -1044,25 +1064,9 @@
 			};
 			name = Debug;
 		};
-		994DCDE07B7A4AB3CCCB1C869E568045 /* Debug */ = {
+		AC4EB9B9A197E4076C86AB309EDA1F0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A10F65AC19296EF35BA6F941E67D053 /* BeamMusicPlayerViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BeamMusicPlayerViewController/BeamMusicPlayerViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B2063C0A97EDD4B0AD92C73F910E81C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A40C6447B682EB3E375131A658878778 /* APAvatarImageView-Private.xcconfig */;
+			baseConfigurationReference = CC94D42F1710AB48A5BE7F18DF3DFD1B /* APAvatarImageView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/APAvatarImageView/APAvatarImageView-prefix.pch";
@@ -1075,6 +1079,22 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		B0BD8FF921C214E082ABC28208D9DC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39728CA452D207F96DA1BC07CD7FBC68 /* OBSlider-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OBSlider/OBSlider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		C3A139831AFFFD56E92F40A29B3287AB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1108,21 +1128,37 @@
 			};
 			name = Release;
 		};
-		E6897836348196B1A8BD6CD37C0375E2 /* Debug */ = {
+		EE84102AB291C8E527B18640DEBAD8D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B1489AD4AB03D8E7AD0B4DD1A3122D0 /* OBSlider-Private.xcconfig */;
+			baseConfigurationReference = 87829D055C30FB6931B4C855CD6B8385 /* BeamMusicPlayerViewController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OBSlider/OBSlider-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/BeamMusicPlayerViewController/BeamMusicPlayerViewController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
+		};
+		FF8ED8BB08B54CDBEA08E8DB8E838D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC94D42F1710AB48A5BE7F18DF3DFD1B /* APAvatarImageView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APAvatarImageView/APAvatarImageView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1136,11 +1172,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1F06AAC2082BD1547D20A955BBEB28FB /* Build configuration list for PBXNativeTarget "OBSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FEB7B18263552149C1B0048BD7462F /* Debug */,
+				B0BD8FF921C214E082ABC28208D9DC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
 				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590A54B6E91CC6024D93DEE44414EDF6 /* Build configuration list for PBXNativeTarget "APAvatarImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4EB9B9A197E4076C86AB309EDA1F0B /* Debug */,
+				FF8ED8BB08B54CDBEA08E8DB8E838D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1154,38 +1208,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		862AC5F0B2C02A15988173D6F19C8F16 /* Build configuration list for PBXNativeTarget "BeamMusicPlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095BED2D0544BC7532B679316561563A /* Debug */,
+				EE84102AB291C8E527B18640DEBAD8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A2B7747A10CFCD6116D36F847517223F /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3A139831AFFFD56E92F40A29B3287AB /* Debug */,
 				3BFCFE419456CB34EC98C8E8F62A9041 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B28E3372B68B9E6CAF34C042A1591F83 /* Build configuration list for PBXNativeTarget "BeamMusicPlayerViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				994DCDE07B7A4AB3CCCB1C869E568045 /* Debug */,
-				22BB3EB36C60B28F072D9B145D49F2C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9BDD2AF348F887905BBCDA460674633 /* Build configuration list for PBXNativeTarget "APAvatarImageView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2063C0A97EDD4B0AD92C73F910E81C2 /* Debug */,
-				689B835D76BC7C45BC2AF87C2B21305F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCFCBF6B96CB44669CD98B6A69F164F2 /* Build configuration list for PBXNativeTarget "OBSlider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6897836348196B1A8BD6CD37C0375E2 /* Debug */,
-				1835C9C20A38BAE96FDF9AA70B73C400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
