@@ -1,1 +1,5 @@
-BEAMMUSICPLAYERVIEWCONTROLLER_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MediaPlayer"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BeamMusicPlayerViewController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/APAvatarImageView" "${PODS_ROOT}/Headers/Public/BeamMusicPlayerViewController" "${PODS_ROOT}/Headers/Public/Crashlytics" "${PODS_ROOT}/Headers/Public/Fabric" "${PODS_ROOT}/Headers/Public/LMDropdownView" "${PODS_ROOT}/Headers/Public/LinqToObjectiveC" "${PODS_ROOT}/Headers/Public/OBSlider" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MediaPlayer"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -26,6 +26,7 @@
 		A1D504591C524D12004858E9 /* MMQueryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D504581C524D12004858E9 /* MMQueryTableViewCell.m */; };
 		A1D5045C1C525162004858E9 /* MMAlbumObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5045B1C525162004858E9 /* MMAlbumObject.m */; };
 		A1D5045E1C5266BA004858E9 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D5045D1C5266BA004858E9 /* placeholder.jpg */; };
+		D01FA53F1CC788950069ABBC /* MMSearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D01FA53E1CC788950069ABBC /* MMSearchManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		A1D5045B1C525162004858E9 /* MMAlbumObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlbumObject.m; sourceTree = "<group>"; };
 		A1D5045D1C5266BA004858E9 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 		A42DA068266F868299E4EB4F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D01FA53D1CC788950069ABBC /* MMSearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSearchManager.h; sourceTree = "<group>"; };
+		D01FA53E1CC788950069ABBC /* MMSearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSearchManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				A1D5045B1C525162004858E9 /* MMAlbumObject.m */,
 				A17C841D1C53D3520078BD5E /* MMDetailViewController.h */,
 				A17C841E1C53D3520078BD5E /* MMDetailViewController.m */,
+				D01FA53D1CC788950069ABBC /* MMSearchManager.h */,
+				D01FA53E1CC788950069ABBC /* MMSearchManager.m */,
 			);
 			path = BeRepublicMusic;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				A1D504341C52426B004858E9 /* Resources */,
 				46D324A10A0A443D472C69FD /* Copy Pods Resources */,
 				A13A6E571C5538FD00185D9A /* ShellScript */,
+				43E9ECF7508682C541B5F02F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +247,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		43E9ECF7508682C541B5F02F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		46D324A10A0A443D472C69FD /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,6 +317,7 @@
 				A1D504551C524860004858E9 /* MMAPI.m in Sources */,
 				A1D5045C1C525162004858E9 /* MMAlbumObject.m in Sources */,
 				A1D504411C52426C004858E9 /* ViewController.m in Sources */,
+				D01FA53F1CC788950069ABBC /* MMSearchManager.m in Sources */,
 				A1D5043E1C52426C004858E9 /* AppDelegate.m in Sources */,
 				A1D504471C52426C004858E9 /* BeRepublicMusic.xcdatamodeld in Sources */,
 				A1D5043B1C52426C004858E9 /* main.m in Sources */,

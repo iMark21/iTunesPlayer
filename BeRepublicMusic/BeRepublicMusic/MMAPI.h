@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
 
 @interface MMAPI : NSObject
 
 +(instancetype)sharedInstance;
 
 - (void)queryWithString:(NSString *) searchString completionBlock:(void (^)(NSArray *JSONArray, NSError *error)) block ;
+
+- (RACSignal *)signalForSearchWithText:(NSString *)text;
 
 @end

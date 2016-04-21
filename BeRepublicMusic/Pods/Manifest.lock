@@ -8,8 +8,15 @@ PODS:
   - Crashlytics (3.6.0):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.4)
+  - LinqToObjectiveC (2.0.0)
   - LMDropdownView (1.0.2)
   - OBSlider (1.1.1)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core (= 2.1.8)
+    - ReactiveCocoa/no-arc (= 2.1.8)
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
@@ -20,7 +27,9 @@ DEPENDENCIES:
   - BeamMusicPlayerViewController
   - Crashlytics
   - Fabric
+  - LinqToObjectiveC (= 2.0.0)
   - LMDropdownView
+  - ReactiveCocoa (= 2.1.8)
   - SDWebImage (~> 3.7)
   - SVProgressHUD
 
@@ -29,9 +38,11 @@ SPEC CHECKSUMS:
   BeamMusicPlayerViewController: 9a1596247c9ab62808900e81a7dfbc5294e41ca3
   Crashlytics: e4e8d02914f2608fbc7bf42b1a7af838b0db67a2
   Fabric: ed41fd62173c6bdea24ab02c9d7707161eabb750
+  LinqToObjectiveC: 768f98c62d5b57cb6bdb7ab869e33d0a7a2da29c
   LMDropdownView: 50188c9678eab3690153993d1824b7235d9b7edc
   OBSlider: 38853ebbb9cc6978a9b7ddc0d4f525588e8bb294
+  ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

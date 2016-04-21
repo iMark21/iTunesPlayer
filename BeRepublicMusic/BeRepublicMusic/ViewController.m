@@ -16,6 +16,10 @@
 #import "MMDetailViewController.h"
 #import "BeamMusicPlayerViewController.h"
 #import "LMDropdownView.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+#import "MMSearchManager.h"
+#import "NSArray+LinqExtensions.h"
 
 @interface ViewController ()
 
@@ -29,38 +33,92 @@
     [super viewDidLoad];
 
     [self.segmentedControl setSelectedSegmentIndex:UISegmentedControlNoSegment];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self reactiveSignals];
+    
+}
+
+-(void)reactiveSignals{
+    
+    RACSignal *validTextField = [self.textField.rac_textSignal
+                                 map:^id(NSString *text) {
+                                     return @([[MMSearchManager sharedInstance]checkCorrectTextFieldSignal:text]);
+                                 }];
+    
+    @weakify(self)
+    [[self.textField.rac_textSignal map:^id(NSString *text) {
+        return [[MMSearchManager sharedInstance]checkCorrectTextFieldSignal:text]? [UIColor whiteColor]: [UIColor yellowColor];
+    }]subscribeNext:^(UIColor *color) {
+        @strongify(self)
+        self.textField.backgroundColor = color;
+    }];
+    
+    [[self.textField.rac_textSignal flattenMap:^id(NSString *text) {
+        //[SVProgressHUD showWithStatus:@"Cargando" maskType:SVProgressHUDMaskTypeGradient];
+       
+        return [[MMAPI sharedInstance]signalForSearchWithText:self.textField.text];
+        
+    }]subscribeNext:^(NSArray *results) {
+        @strongify(self)
+
+            NSLog(@"%@",results);
+            NSArray *statuses = [results valueForKey:@"results"];
+            NSArray *places = [statuses linq_select:^id(id place) {
+                return [[MMAlbumObject alloc] initWithDictionary:place];
+            }];
+            [self displaySongs:places];
+            //[SVProgressHUD dismiss];
+        
+        
+    }];
+
+    
+}
+
+- (void)displaySongs:(NSArray *)places {
+    
+    
+    self.parsedItems = [NSMutableArray arrayWithArray:places];
+    [self.tableView reloadData];
+    
 }
 
 - (IBAction)searchButtonAction:(id)sender {
     
     [self.segmentedControl setSelectedSegmentIndex:UISegmentedControlNoSegment];
+
     
-    if ([self.textField.text length]==0) {
-        
-        UIAlertController * alert=   [UIAlertController
-                                      alertControllerWithTitle:@"Ooops!"                                                  message:NSLocalizedString(@"You have to enter some word", @"")
-                                      preferredStyle:UIAlertControllerStyleAlert];
-        
-        UIAlertAction *cancelButton = [UIAlertAction
-                                       actionWithTitle:@"Ok"
-                                       style:UIAlertActionStyleDefault
-                                       handler:^(UIAlertAction * action)
-                                       {
-                                           [alert dismissViewControllerAnimated:YES completion:nil];
-                                           
-                                       }];
-        
-        [alert addAction:cancelButton];
-        
-        [self presentViewController:alert animated:YES completion:nil];
-        
-    }
     
-    [self loadDataWithString:self.textField.text];
+    
+    
+//    if ([self.textField.text length]==0) {
+//        
+//        UIAlertController * alert=   [UIAlertController
+//                                      alertControllerWithTitle:@"Ooops!"                                                  message:NSLocalizedString(@"You have to enter some word", @"")
+//                                      preferredStyle:UIAlertControllerStyleAlert];
+//        
+//        UIAlertAction *cancelButton = [UIAlertAction
+//                                       actionWithTitle:@"Ok"
+//                                       style:UIAlertActionStyleDefault
+//                                       handler:^(UIAlertAction * action)
+//                                       {
+//                                           [alert dismissViewControllerAnimated:YES completion:nil];
+//                                           
+//                                       }];
+//        
+//        [alert addAction:cancelButton];
+//        
+//        [self presentViewController:alert animated:YES completion:nil];
+//        
+//    }
+//    
+//    [self loadDataWithString:self.textField.text];
     
     
 }
+
+
+
 
 
 
@@ -68,7 +126,7 @@
 
     
     
-    [SVProgressHUD showWithStatus:@"Cargando" maskType:SVProgressHUDMaskTypeGradient];
+    //[SVProgressHUD showWithStatus:@"Cargando" maskType:SVProgressHUDMaskTypeGradient];
     
     self.parsedItems = [NSMutableArray array];
     
