@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hbb-td-sBq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hbb-td-sBq">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -23,15 +23,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e92-3y-fsh">
-                                <rect key="frame" x="20" y="124" width="560" height="30"/>
-                                <state key="normal" title="Search"/>
-                                <connections>
-                                    <action selector="searchButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7oI-h6-YYy"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DeA-14-lz5">
-                                <rect key="frame" x="0.0" y="164" width="600" height="436"/>
+                                <rect key="frame" x="0.0" y="114" width="600" height="486"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="90" id="2Fx-Si-2bE" customClass="MMQueryTableViewCell">
@@ -110,13 +103,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="e92-3y-fsh" firstAttribute="top" secondItem="DOH-x3-Tgl" secondAttribute="bottom" constant="10" id="53R-Up-7gz"/>
+                            <constraint firstItem="DeA-14-lz5" firstAttribute="top" secondItem="DOH-x3-Tgl" secondAttribute="bottom" id="GTb-iJ-PTq"/>
                             <constraint firstItem="DOH-x3-Tgl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Mva-VW-qAL"/>
                             <constraint firstItem="DeA-14-lz5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="R42-Tw-L8n"/>
-                            <constraint firstItem="e92-3y-fsh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="WlL-oR-Oqz"/>
-                            <constraint firstAttribute="trailing" secondItem="e92-3y-fsh" secondAttribute="trailing" constant="20" id="bIA-bJ-8nw"/>
                             <constraint firstAttribute="trailing" secondItem="DOH-x3-Tgl" secondAttribute="trailing" constant="20" id="nNf-yx-0Iu"/>
-                            <constraint firstItem="DeA-14-lz5" firstAttribute="top" secondItem="e92-3y-fsh" secondAttribute="bottom" constant="10" id="neS-Wi-Oyv"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DeA-14-lz5" secondAttribute="bottom" id="uEx-G5-SyS"/>
                             <constraint firstItem="DOH-x3-Tgl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="wOR-hd-nWn"/>
                             <constraint firstAttribute="trailing" secondItem="DeA-14-lz5" secondAttribute="trailing" id="xfz-6f-j7D"/>
@@ -138,7 +128,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchButton" destination="e92-3y-fsh" id="d7r-rB-V6w"/>
                         <outlet property="segmentedControl" destination="ag7-H3-wlx" id="K9B-Rd-3he"/>
                         <outlet property="tableView" destination="DeA-14-lz5" id="Mja-ry-bgR"/>
                         <outlet property="textField" destination="DOH-x3-Tgl" id="QfQ-d5-HwR"/>

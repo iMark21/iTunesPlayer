@@ -40,155 +40,40 @@
 
 -(void)reactiveSignals{
     
-    RACSignal *validTextField = [self.textField.rac_textSignal
-                                 map:^id(NSString *text) {
-                                     return @([[MMSearchManager sharedInstance]checkCorrectTextFieldSignal:text]);
-                                 }];
-    
     @weakify(self)
-    [[self.textField.rac_textSignal map:^id(NSString *text) {
-        return [[MMSearchManager sharedInstance]checkCorrectTextFieldSignal:text]? [UIColor whiteColor]: [UIColor yellowColor];
-    }]subscribeNext:^(UIColor *color) {
-        @strongify(self)
-        self.textField.backgroundColor = color;
-    }];
-    
-    [[self.textField.rac_textSignal flattenMap:^id(NSString *text) {
-        //[SVProgressHUD showWithStatus:@"Cargando" maskType:SVProgressHUDMaskTypeGradient];
-       
-        return [[MMAPI sharedInstance]signalForSearchWithText:self.textField.text];
-        
-    }]subscribeNext:^(NSArray *results) {
-        @strongify(self)
 
-            NSLog(@"%@",results);
+    [[self.textField.rac_textSignal filter:^BOOL(NSString *text) {
+        return [[MMSearchManager sharedInstance]checkCorrectTextFieldSignal:text];
+    }]subscribeNext:^(id x) {
+        @strongify(self)
+        [[self.textField.rac_textSignal flattenMap:^id(NSString *text) {
+            return [[MMAPI sharedInstance]signalForSearchWithText:self.textField.text];
+        }]subscribeNext:^(NSArray *results) {
+            @strongify(self)
             NSArray *statuses = [results valueForKey:@"results"];
             NSArray *places = [statuses linq_select:^id(id place) {
                 return [[MMAlbumObject alloc] initWithDictionary:place];
             }];
             [self displaySongs:places];
-            //[SVProgressHUD dismiss];
-        
+    
+        }];
         
     }];
 
-    
+  
 }
 
 - (void)displaySongs:(NSArray *)places {
     
+    self.parsedItems = [NSMutableArray new];
     
-    self.parsedItems = [NSMutableArray arrayWithArray:places];
-    [self.tableView reloadData];
-    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.parsedItems = [NSMutableArray arrayWithArray:places];
+        [self.tableView reloadData];
+    });
+
 }
 
-- (IBAction)searchButtonAction:(id)sender {
-    
-    [self.segmentedControl setSelectedSegmentIndex:UISegmentedControlNoSegment];
-
-    
-    
-    
-    
-//    if ([self.textField.text length]==0) {
-//        
-//        UIAlertController * alert=   [UIAlertController
-//                                      alertControllerWithTitle:@"Ooops!"                                                  message:NSLocalizedString(@"You have to enter some word", @"")
-//                                      preferredStyle:UIAlertControllerStyleAlert];
-//        
-//        UIAlertAction *cancelButton = [UIAlertAction
-//                                       actionWithTitle:@"Ok"
-//                                       style:UIAlertActionStyleDefault
-//                                       handler:^(UIAlertAction * action)
-//                                       {
-//                                           [alert dismissViewControllerAnimated:YES completion:nil];
-//                                           
-//                                       }];
-//        
-//        [alert addAction:cancelButton];
-//        
-//        [self presentViewController:alert animated:YES completion:nil];
-//        
-//    }
-//    
-//    [self loadDataWithString:self.textField.text];
-    
-    
-}
-
-
-
-
-
-
--(void)loadDataWithString: (NSString*)queryText{
-
-    
-    
-    //[SVProgressHUD showWithStatus:@"Cargando" maskType:SVProgressHUDMaskTypeGradient];
-    
-    self.parsedItems = [NSMutableArray array];
-    
-    [[MMAPI sharedInstance]queryWithString:queryText completionBlock:^(NSArray *JSONArray, NSError *error) {
-        
-        
-        if (!error) {
-            
-            if ([[JSONArray valueForKey:@"results"] count]==0 || JSONArray == nil) {
-                
-                UIAlertController * alert=   [UIAlertController
-                                              alertControllerWithTitle:@"Ooops!"                                                  message:NSLocalizedString(@"Something goes wrong. Please search another", @"")
-                                              preferredStyle:UIAlertControllerStyleAlert];
-                
-                UIAlertAction *cancelButton = [UIAlertAction
-                                               actionWithTitle:@"Ok"
-                                               style:UIAlertActionStyleDefault
-                                               handler:^(UIAlertAction * action)
-                                               {
-                                                   [alert dismissViewControllerAnimated:YES completion:nil];
-                                                   
-                                               }];
-                
-                [alert addAction:cancelButton];
-                
-                [self presentViewController:alert animated:YES completion:nil];
-                
-                
-                
-            }else{
-                
-                for (id item in [JSONArray valueForKey:@"results"]) {
-                    
-                    if ([item isKindOfClass:[NSDictionary class]]) {
-                        
-                        dispatch_async(dispatch_get_main_queue(), ^{
-                            
-                            MMAlbumObject *place = [[MMAlbumObject alloc] initWithDictionary:item];
-                            
-                            [self.parsedItems addObject:place];
-                            
-                            [self.tableView reloadData];
-                            
-                            
-                        });
-                        
-                    }
-                }
-                
-            }
-            
-            
-        }
-        dispatch_async(dispatch_get_main_queue(), ^{
-            
-            [SVProgressHUD dismiss];
-            
-        });
-        
-    }];
-    
-}
 
 #pragma mark UITableView methods
 
@@ -212,17 +97,17 @@
         cell = [[MMQueryTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
-    
-    MMAlbumObject *album = [self.parsedItems objectAtIndex:indexPath.row];
-    cell.title.text =  album.title;
-    cell.artist.text = album.artist;
-    cell.gender.text = album.gender;
-    cell.prize.text = [NSString stringWithFormat:@"%.02f",album.prize];
-    
-    [cell.imageAlbum sd_setImageWithURL:[NSURL URLWithString:album.imageAlbum] placeholderImage:[UIImage imageNamed:@"placeholder.jpg"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+    if (self.parsedItems.count>0) {
+        MMAlbumObject *album = [self.parsedItems objectAtIndex:indexPath.row];
+        cell.title.text =  album.title;
+        cell.artist.text = album.artist;
+        cell.gender.text = album.gender;
+        cell.prize.text = [NSString stringWithFormat:@"%.02f",album.prize];
         
-    }];
-    
+        [cell.imageAlbum sd_setImageWithURL:[NSURL URLWithString:album.imageAlbum] placeholderImage:[UIImage imageNamed:@"placeholder.jpg"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+            
+        }];
+    }
     
     return cell;
 }

@@ -18,4 +18,6 @@
 
 - (RACSignal *)signalForSearchWithText:(NSString *)text;
 
+
+
 @end

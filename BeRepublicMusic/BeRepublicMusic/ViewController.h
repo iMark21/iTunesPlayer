@@ -20,9 +20,8 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
-- (IBAction)searchButtonAction:(id)sender;
-
 - (IBAction)segmentedControlAction:(id)sender;
+
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
 
 
