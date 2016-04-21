@@ -1,5 +1,5 @@
 # iTunes Store Player
-Mobile Developer en BeRepublic, SL.
+Simple iOS app
 
 Aplicación en iOS, muy sencilla, que consta de una simple navegación entre 2 pantallas.
 
